@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <title>with_mileage</title>
+</head>
+<body>
+   
+   <div class="info">
+      <div class="container">
+         <div class="location">
+            <div class="icon_location"></div>
+            <div class="info_location">Россия, Москва, 38КМ МКАД, 6Бс1</div>
+         </div>
+            <div class="work_time">
+               <div class="icon_work"></div>
+               <div class="info_work">Время работы: c 08:00 до 21:00</div>
+            </div>
+        
+            <div class="social">
+               <div class="icon_wathsapp"></div>
+               <a class="wathsapp" href="#">Wathsapp</a>
+            </div>
+         
+      </div>
+   </div>
+
+   <header class="header">
+      <div class="container">
+         <button class="list"><img src="/icon/list_icon.svg" alt=""></button>
+         <img class="logo" src="/icon/logo.svg" alt="" srcset="">
+         <div class="text_logo"><span class="red"> 10 лет </span>   превосходим <p> ваши ожидания</div>
+            <nav class="nav">
+               <a href="#">Подбор авто</a>
+               <a href="#">О компании</a>
+               <a href="#">Техцентр</a>
+               <a href="#">Отзывы</a>
+               <a href="#">Контакты</a>
+            </nav>
+            <div class="calls">
+               <img class="icon_call" src="/icon/call.svg" alt="">
+               <div class="number_main">+7 (800) 551-94-31</div> 
+               <div class="number_twink">+7 (495) 292-18-67</div>
+            </div>
+
+            <button class="feat_back">Обратная связь</button>
+      </div>
+   </header>
+
+   <div class="categories">
+      <div class="container">
+         <div class="kat_auto">
+            <div class=" title_cate">Каталог авто</div>
+         </div>
+         <div class="kat_auto">
+            <div class=" title_cate">Авто с пробегом</div>
+         </div><div class="kat_auto">
+            <div class=" title_cate">Кредит и рассрочка  </div>
+         </div><div class="kat_auto">
+            <div class=" title_cate">Спецпредложения</div>
+         </div><div class="kat_auto">
+            <div class=" title_cate">Такси в кредит   </div>
+         </div>
+     
+         <div class="icons_categories">
+            <div class="icon_hearth"><span class="favorites_num">12</span></div>
+            <div class="icon_tubs"><span class="favorites_num">10</span></div>
+            <div class="icon_search"></div>
+         </div>
+      </div>
+   </div>
+
+      <h1 class="my_favorites_items">
+         <div class="container">
+            <div class="my_favorites_header">
+               <div class="my_favorites_title">
+                  Избранное
+                  <label class="label_for_favorites">
+                        <input class="favorites_filter_checkbox" type="checkbox" name="favorites_filter" id="" >
+                       <div class="my_favorites_filter">
+                        <span> Новые авто: </span> <span class="red_text">5</span>
+                       </div>    
+                  </label>
+                  
+                  <label class="label_for_favorites">
+                     <input class="favorites_filter_checkbox" type="checkbox" name="favorites_filter" id="" checked>
+                    <div class="my_favorites_filter">
+                     <span> С пробегом: </span> <span class="red_text">3</span>
+                    </div>    
+               </label>
+               <label class="label_for_favorites">
+                  <input class="favorites_filter_checkbox" type="checkbox" name="favorites_filter" id="">
+                 <div class="my_favorites_filter">
+                  <span> Такси: </span> <span class="red_text">2</span>
+                 </div>    
+            </label>
+               </div>
+               <div class="total_cars">
+                  В избранном <span class="fw_bold">10 авто</span> 
+               </div>
+            </div>
+            <div class="favorites_filter_title">
+               С пробегом
+            </div>
+            <div class="my_favorites_filter_with_mileage">
+                  <div class="auto_cart_with_mileage">
+                     <div class="car_sold"> <span class="car_sold_text">Автомобиль продан</span> </div>
+                     <div class="icon_fav_tubs">
+                     <label>
+                        <div class="hearth_mileage">  
+                              <input class="favorites_hearth_checkbox" type="checkbox" name="" id="">
+                              <span class="icon_hearth_mileage"></span>
+                        </div>
+                     </label>
+                     <label >
+                        <div class="tubs_mileage">
+                           <input class="favorites_tubs_checkbox" type="checkbox" name="" id="">
+                           <span class="icon_tubs_mileage"></span>
+                     </div>
+                     </label>
+                        
+                     </div>
+                     <img class="bg_auto_cart_with_mileage" src="/img_car_type/bg_auto_cart_with_mileage.svg" alt="">
+                     <div class="slider_photo_auto_cart">
+                        <label>
+                           <input class="slider_photo_radio" type="radio" name="slider_photo_auto_cart1" id="" checked>
+                           <span class="custome_silder_photo"></span>
+                        </label>
+                        <label>
+                           <input class="slider_photo_radio" type="radio" name="slider_photo_auto_cart1" id="">
+                           <span class="custome_silder_photo"></span>
+                        </label>
+                        <label>
+                           <input class="slider_photo_radio" type="radio" name="slider_photo_auto_cart1" id="">
+                           <span class="custome_silder_photo"></span>
+                        </label>
+                        <label>
+                           <input class="slider_photo_radio" type="radio" name="slider_photo_auto_cart1" id="">
+                           <span class="custome_silder_photo"></span>
+                        </label>
+                        <label>
+                           <input class="slider_photo_radio" type="radio" name="slider_photo_auto_cart1" id="">
+                           <span class="custome_silder_photo"></span>
+                        </label>
+                     </div>
+                        <div class="name_car_cart">
+                           Toyota Camry 2013
+                        </div>
+                        <div class="characteristics_auto_cart">
+                           <div class="characteristics_auto_cart_text"> Мощность:
+                              <span class="fw_bold">115 л.с.</span>
+                           </div>
+                           <div class="characteristics_auto_cart_text"> Привод:
+                              <span class="fw_bold"> передний</span>
+                           </div>
+                           <div class="characteristics_auto_cart_text">КПП:
+                              <span class="fw_bold">механика</span>
+                           </div>
+                           <div class="characteristics_auto_cart_text"> Объем двигателя:
+                              <span class="fw_bold">1.2 л</span>
+                           </div>
+                           <div class="characteristics_auto_cart_text"> Кузов:
+                              <span class="fw_bold">внедорожник</span>
+                           </div>
+                           <div class="characteristics_auto_cart_text"> Пробег:
+                              <span class="fw_bold">123456 км</span>
+                           </div>
+                        </div>
+                        <div class="price_auto_car_with_mileage">
+                           от 1 615 000 ₽
+                           <span class="with_mileage_credit">от 115 000 ₽/мес. </span>
+                        </div>
+                        <div class="btn_buy for_car_with_mileage">
+                           <button class="reserve fix_size">Резерв онлайн</button>
+                           <button class="bought fix_size">Купить</button>
+                           <button class="more_info fix_size">Подробнее</button>
+                        </div>
+                     </div>
+                     <div class="auto_cart_with_mileage">
+                     
+                        <div class="icon_fav_tubs">
+                        <label>
+                           <div class="hearth_mileage">  
+                                 <input class="favorites_hearth_checkbox" type="checkbox" name="" id="">
+                                 <span class="icon_hearth_mileage"></span>
+                           </div>
+                        </label>
+                        <label >
+                           <div class="tubs_mileage">
+                              <input class="favorites_tubs_checkbox" type="checkbox" name="" id="" checked>
+                              <span class="icon_tubs_mileage"></span>
+                        </div>
+                        </label>
+                           
+                        </div>
+                        <img class="bg_auto_cart_with_mileage" src="/img_car_type/bg_auto_cart_with_mileage.svg" alt="">
+                        <div class="slider_photo_auto_cart">
+                           <label>
+                              <input class="slider_photo_radio" type="radio" name="slider_photo_auto_cart2" id="" checked>
+                              <span class="custome_silder_photo"></span>
+                           </label>
+                           <label>
+                              <input class="slider_photo_radio" type="radio" name="slider_photo_auto_cart2" id="">
+                              <span class="custome_silder_photo"></span>
+                           </label>
+                           <label>
+                              <input class="slider_photo_radio" type="radio" name="slider_photo_auto_cart2" id="">
+                              <span class="custome_silder_photo"></span>
+                           </label>
+                           <label>
+                              <input class="slider_photo_radio" type="radio" name="slider_photo_auto_cart2" id="">
+                              <span class="custome_silder_photo"></span>
+                           </label>
+                           <label>
+                              <input class="slider_photo_radio" type="radio" name="slider_photo_auto_cart2" id="">
+                              <span class="custome_silder_photo"></span>
+                           </label>
+                        </div>
+                           <div class="name_car_cart">
+                              Toyota Camry 2013
+                           </div>
+                           <div class="characteristics_auto_cart">
+                              <div class="characteristics_auto_cart_text"> Мощность:
+                                 <span class="fw_bold">115 л.с.</span>
+                              </div>
+                              <div class="characteristics_auto_cart_text"> Привод:
+                                 <span class="fw_bold"> передний</span>
+                              </div>
+                              <div class="characteristics_auto_cart_text">КПП:
+                                 <span class="fw_bold">механика</span>
+                              </div>
+                              <div class="characteristics_auto_cart_text"> Объем двигателя:
+                                 <span class="fw_bold">1.2 л</span>
+                              </div>
+                              <div class="characteristics_auto_cart_text"> Кузов:
+                                 <span class="fw_bold">внедорожник</span>
+                              </div>
+                              <div class="characteristics_auto_cart_text"> Пробег:
+                                 <span class="fw_bold">123456 км</span>
+                              </div>
+                           </div>
+                           <div class="price_auto_car_with_mileage">
+                              от 1 615 000 ₽
+                              <span class="with_mileage_credit">от 115 000 ₽/мес. </span>
+                           </div>
+                           <div class="btn_buy for_car_with_mileage">
+                              <button class="reserve fix_size">Резерв онлайн</button>
+                              <button class="bought fix_size">Купить</button>
+                              <button class="more_info fix_size">Подробнее</button>
+                           </div>
+                        </div>
+                        <div class="auto_cart_with_mileage">
+                     
+                           <div class="icon_fav_tubs">
+                           <label>
+                              <div class="hearth_mileage">  
+                                    <input class="favorites_hearth_checkbox" type="checkbox" name="" id="" checked>
+                                    <span class="icon_hearth_mileage"></span>
+                              </div>
+                           </label>
+                           <label >
+                              <div class="tubs_mileage">
+                                 <input class="favorites_tubs_checkbox" type="checkbox" name="" id="">
+                                 <span class="icon_tubs_mileage"></span>
+                           </div>
+                           </label>
+                              
+                           </div>
+                           <img class="bg_auto_cart_with_mileage" src="/img_car_type/bg_auto_cart_with_mileage.svg" alt="">
+                           <div class="slider_photo_auto_cart">
+                              <label>
+                                 <input class="slider_photo_radio" type="radio" name="slider_photo_auto_cart3" id="" checked>
+                                 <span class="custome_silder_photo"></span>
+                              </label>
+                              <label>
+                                 <input class="slider_photo_radio" type="radio" name="slider_photo_auto_cart3" id="">
+                                 <span class="custome_silder_photo"></span>
+                              </label>
+                              <label>
+                                 <input class="slider_photo_radio" type="radio" name="slider_photo_auto_cart3" id="">
+                                 <span class="custome_silder_photo"></span>
+                              </label>
+                              <label>
+                                 <input class="slider_photo_radio" type="radio" name="slider_photo_auto_cart3" id="">
+                                 <span class="custome_silder_photo"></span>
+                              </label>
+                              <label>
+                                 <input class="slider_photo_radio" type="radio" name="slider_photo_auto_cart3" id="">
+                                 <span class="custome_silder_photo"></span>
+                              </label>
+                           </div>
+                              <div class="name_car_cart">
+                                 Toyota Camry 2013
+                              </div>
+                              <div class="characteristics_auto_cart">
+                                 <div class="characteristics_auto_cart_text"> Мощность:
+                                    <span class="fw_bold">115 л.с.</span>
+                                 </div>
+                                 <div class="characteristics_auto_cart_text"> Привод:
+                                    <span class="fw_bold"> передний</span>
+                                 </div>
+                                 <div class="characteristics_auto_cart_text">КПП:
+                                    <span class="fw_bold">механика</span>
+                                 </div>
+                                 <div class="characteristics_auto_cart_text"> Объем двигателя:
+                                    <span class="fw_bold">1.2 л</span>
+                                 </div>
+                                 <div class="characteristics_auto_cart_text"> Кузов:
+                                    <span class="fw_bold">внедорожник</span>
+                                 </div>
+                                 <div class="characteristics_auto_cart_text"> Пробег:
+                                    <span class="fw_bold">123456 км</span>
+                                 </div>
+                              </div>
+                              <div class="price_auto_car_with_mileage">
+                                 от 1 615 000 ₽
+                                 <span class="with_mileage_credit">от 115 000 ₽/мес. </span>
+                              </div>
+                              <div class="btn_buy for_car_with_mileage">
+                                 <button class="reserve fix_size">Резерв онлайн</button>
+                                 <button class="bought fix_size">Купить</button>
+                                 <button class="more_info fix_size">Подробнее</button>
+                              </div>
+                           </div>
+                  </div>
+         </div>
+      </h1>
+   
+   <div class="footer footer_for_catalog">
+      <div class="line_border">a</div>
+      <div class="container">
+         <div class="header_footer">
+            <div class="title_header_footer">
+               Каталог авто
+            </div>
+            <div class="title_header_footer">
+               Авто с пробегом
+            </div>
+            <div class="title_header_footer">
+               Кредит и рассрочка
+            </div>
+            <div class="title_header_footer">
+               Спецпредложения
+            </div>
+            <div class="title_header_footer">
+               Такси в кредит
+            </div>
+         </div>
+         <div class="main_footers">
+            <div class="main_footer_left">
+            
+               <div class="title_main_footer_left">
+                  <div class="subtitle_main_footer_left">
+                     
+                    <span class="border_red">Ката</span>лог авто
+                     
+                  </div>
+                  <span class="text_footer more">Подробнее</span>
+                  <span class="text_footer map_site">Карта сайта</span>
+               </div>
+               <div class="catalog_auto">
+                  <div class="text_footer">
+                     Kia
+                  </div>
+                  <div class="text_footer">
+                     Hyundai
+                  </div>
+                  <div class="text_footer">
+                     Skoda
+                  </div>
+                  <div class="text_footer">
+                     Volkswagen
+                  </div>
+                  <div class="text_footer">
+                     Toyota
+                  </div>
+                  <div class="text_footer">
+                     Brilliance
+                  </div>
+                  <div class="text_footer">
+                     Kia
+                  </div>
+                  <div class="text_footer">
+                     Hyundai
+                  </div>
+                  <div class="text_footer">
+                     Skoda
+                  </div>
+                  <div class="text_footer">
+                     Volkswagen
+                  </div>
+                  <div class="text_footer">
+                     Toyota
+                  </div>
+                  <div class="text_footer">
+                     Brilliance
+                  </div>
+                  <div class="text_footer">
+                     Kia
+                  </div>
+                  <div class="text_footer">
+                     Hyundai
+                  </div>
+                  <div class="text_footer">
+                     Skoda
+                  </div>
+                  <div class="text_footer">
+                     Volkswagen
+                  </div>
+                  <div class="text_footer">
+                     Toyota
+                  </div>
+                  <div class="text_footer">
+                     Brilliance
+                  </div>
+                  <div class="text_footer">
+                     Kia
+                  </div>
+                  <div class="text_footer">
+                     Hyundai
+                  </div>
+                  <div class="text_footer">
+                     Skoda
+                  </div>
+                  <div class="text_footer">
+                     Volkswagen
+                  </div>
+                  <div class="text_footer">
+                     Toyota
+                  </div>
+                  <div class="text_footer">
+                     Brilliance
+                  </div>
+                  <div class="text_footer">
+                     Kia
+                  </div>
+                  <div class="text_footer">
+                     Hyundai
+                  </div>
+                  <div class="text_footer">
+                     Skoda
+                  </div>
+                  <div class="text_footer">
+                     Volkswagen
+                  </div>
+                  <div class="text_footer">
+                     Toyota
+                  </div>
+                  <div class="text_footer">
+                     Brilliance
+                  </div>
+                  <div class="text_footer">
+                     Kia
+                  </div>
+                  <div class="text_footer">
+                     Hyundai
+                  </div>
+                  <div class="text_footer">
+                     Skoda
+                  </div>
+                  <div class="text_footer">
+                     Volkswagen
+                  </div>
+                  <div class="text_footer">
+                     Toyota
+                  </div>
+               </div>
+            </div>
+
+            <div class="main_footer_right">
+               <div class="title_main_footer_right">
+                  <div class="subtitle_credit_footer_right">
+                    <span class="border_red">Кред</span>ит и рассрочка
+                  </div>
+
+                  <div class="text_footer_right_credit">
+                    <div class="text_footer">
+                     Экспресс-кредит
+                    </div> 
+                    <div class="text_footer">
+                     Семейный автомобиль
+                    </div> 
+                    <div class="text_footer">
+                     Первый автомобиль
+                    </div> 
+                    <div class="text_footer">
+                     Работникам медицины
+                    </div> 
+                    <div class="text_footer">
+                     Рассрочка
+                    </div> 
+                    <div class="text_footer">
+                     Trade-in
+                    </div>
+                  </div>
+                  
+               </div>
+
+               <div class="contact_find_right">
+                  <div class="subtitle_contact_footer_right">
+                     <span class="border_red">Кред</span>ит и рассрочка
+                   </div>
+                   <div class="how_find_footer">
+                     <div class="call_find">
+                        <div class="call_red"><img class="img_call" width="9px" height="9px" src="/img/call_small.svg" alt="" srcset=""></div>
+                        <div class="numbers">
+                           <div class="num_1 text_footer text_decoration_none">+7 (800) 551-94-31 </div>
+                           <div class="num_2 text_footer text_decoration_none">+7 (800) 551-94-31 </div>
+                        </div>
+                     </div>
+                     <div class="time_working">
+                        <div class="call_red"><img class="img_call" width="9px" height="9px" src="/img/time.svg" alt="" srcset=""></div>
+                        <div class="time_text  text_decoration_none">Ежедневно с 08:00 до 21:00</div>
+                     </div>
+                     <div class="time_working">
+                        <div class="call_red"><img class="img_call" width="9px" height="9px" src="/img/location_small.svg" alt="" srcset=""></div>
+                        <div class="time_text  text_decoration_none">Россия, Москва, 38КМ МКАД, 6Бс1 <br>
+                        <span class="scheme"><u> Схема проезда </u></span></div>
+                     </div>
+                     <div class="u_location_now">
+                        <div class="specify_location">
+                            Москва
+                        </div>
+                     </div>
+                   </div>
+
+               </div>
+              
+                
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="footer_footer">
+      <div class="container">
+         <div class="abc_auto">
+            <div class="title_abc_auto">
+               © 2021 Автосалон "ABC AUTO". Официальный дилер
+               <div class="text_abc">
+                  
+                  <span class="text_footer_footer "><u>Политика конфиденциальности</u></span>
+                  <span class="text_footer_footer user_offer"><u>Пользовательское соглашение</u></span>
+               </div>
+            </div>
+            <div class="text_footer_footer">Обращаем Ваше внимание на то, что данный интернет-сайт носит исключительно информационный характер
+                и ни при каких условиях не является публичной офертой,
+                 определяемой положениями Статьи 437 Гражданского кодекса Российской Федерации.</div>
+               <img class="yandex_5" src="/img/yandex_5.svg" alt="">
+
+         </div>
+      </div>
+  </div>
+</body>
+</html>

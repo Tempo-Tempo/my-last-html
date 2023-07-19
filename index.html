@@ -1,0 +1,2453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+   <title>Document</title>
+</head>
+<body>
+   <div class="header_callback new_closed" id="header_callback">
+      <div class="take_offers_header">
+            <form class="name_number">
+               <input class="you_name w_100" value="" placeholder="Ваше имя" type="text" name="" id="you_name">
+               <input class="you_number" value="" placeholder="Ваш телефон" type="text" name="" id="you_number">
+               <button type="button" class="btn_callback_header">Заказать звонок</button>
+               <div class="alert_okey new_closed"><img class="okey_green" src="/js_for_main_menu/okey_green.png" alt="">
+               <span class="alert_text">Ваша заявка принята</span> 
+               </div>
+               <div class="error_red new_closed"><img class="okey_green" src="/js_for_main_menu/error_red.jpg" alt="">
+                  <span class="alert_text">Заполните все данные</span> 
+                  </div>
+            </form>
+      </div>
+   </div>
+  <button class="vector_on_top"><img class="img_vector_on_top" src="/img/arrow_right.svg" alt=""></button>
+   <div class="info">
+      <div class="container">
+         <div class="location">
+            <div class="icon_location"></div>
+            <div class="info_location">Россия, Москва, 38КМ МКАД, 6Бс1</div>
+         </div>
+            <div class="work_time">
+               <div class="icon_work"></div>
+               <div class="info_work">Время работы: c 08:00 до 21:00</div>
+            </div>
+        
+            <div class="social">
+               <div class="icon_wathsapp"></div>
+               <a class="wathsapp" href="#">Wathsapp</a>
+            </div>
+         
+      </div>
+   </div>
+   <header class="header">
+      <div class="container">
+         <button class="list"><img src="icon/list_icon.svg" alt=""></button>
+         <div class="list_items">
+            <div class="list_item">
+               <li><a href="#">Подбор авто</a></li>
+               
+            </div>
+            <div class="list_item">
+               <li><a href="#">Подбор авто</a></li>
+               
+            </div>
+            <div class="list_item">
+               <li><a href="#">Подбор авто</a></li>
+               
+            </div>
+            <div class="list_item">
+               <li><a href="#">Подбор авто</a></li>
+               
+            </div>
+            <div class="list_item">
+               <li><a href="#">Подбор авто</a></li>
+               
+            </div>
+            <div class="list_item">
+               <li><a href="#">Подбор авто</a></li>
+               
+            </div>
+         </div>
+         <img class="logo" src="icon/logo.svg" alt="" srcset="">
+         <div class="text_logo"><span class="red"> 10 лет </span>   превосходим <p> ваши ожидания</div>
+            <nav class="nav">
+               <ul>
+               <a class="nav_categories"  href="#">Подбор авто</a>
+               <a class="nav_company" href="#">О компании</a>
+               <a class="nav_car_deals" href="#">Техцентр</a>
+               <a class="nav_reviews" href="#">Отзывы</a>
+               <a class="nav_contatcs" href="#">Контакты</a> 
+               </ul>
+                 
+               
+            </nav>
+            <div class="calls">
+               <img class="icon_call" src="icon/call.svg" alt="">
+               <div href="tel:78005519431" class="number_main">+7 (800) 551-94-31</div> 
+               <div class="number_twink">+7 (495) 292-18-67</div>
+            </div>
+
+            <button class="feat_back">Обратная связь</button>
+      </div>
+   </header>
+
+   <div class="categories">
+      <div class="container">
+         <div class="kat_auto" id="info_first">
+            <div class=" title_cate">Каталог авто</div>
+            <div class="title_cate_full_info new_closed"  id="info_first">
+               <ul class="title_cat_ul">
+                  <li><a href="#">Tayota</a></li>
+                  <li><a href="#">Lada</a></li>
+                  <li><a href="#">SKODA</a></li>
+                  <li><a href="#">GAC</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="kat_auto" id="info_second">
+            <div class=" title_cate">Авто с пробегом</div>
+            <div class="title_cate_full_info new_closed" id="info_second">
+               <ul class="title_cat_ul">
+                  <li><a href="#">Tayota</a></li>
+                  <li><a href="#">Lada</a></li>
+                  <li><a href="#">SKODA</a></li>
+                  <li><a href="#">GAC</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="kat_auto"  id="info_thrid">
+            <div class=" title_cate">Кредит и рассрочка  </div>
+            <div class="title_cate_full_info new_closed" id="info_thrid">
+               <ul class="title_cat_ul">
+                  <li><a href="#">Tayota</a></li>
+                  <li><a href="#">Lada</a></li>
+                  <li><a href="#">SKODA</a></li>
+                  <li><a href="#">GAC</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="kat_auto"  id="info_fourth">
+            <div class=" title_cate">Спецпредложения</div>
+            <div class="title_cate_full_info new_closed" id="info_fourth">
+               <ul class="title_cat_ul">
+                  <li><a href="#">Tayota</a></li>
+                  <li><a href="#">Lada</a></li>
+                  <li><a href="#">SKODA</a></li>
+                  <li><a href="#">GAC</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="kat_auto" id="info_fifth">
+            <div class=" title_cate">Такси в кредит   </div>
+            <div class="title_cate_full_info new_closed"  id="info_fifth">
+               <ul class="title_cat_ul">
+                  <li><a href="#">Tayota</a></li>
+                  <li><a href="#">Lada</a></li>
+                  <li><a href="#">SKODA</a></li>
+                  <li><a href="#">GAC</a></li>
+               </ul>
+            </div>
+         </div>
+     
+         <div class="icons_categories">
+            <div class="icon_hearth"><span class="favorites_num">0</span></div>
+            <div class="icon_tubs"><span class="favorites_num_tubs">0</span></div>
+            <div class="icon_search"></div>
+         </div>
+      </div>
+      
+   </div>
+<div class="wrapper" id="slider">
+   <h1 class="main_slider" id="1">
+      <div class="wrapper_slider">
+         <img class="arrow_left" data-slide="prev" src="/img/arrow_left.svg" alt="">
+      <img class="arrow_right" id="next" src="img/arrow_right.svg" alt="">
+      <div class="container">
+         <div class="sliders">
+            <div class="title_action">Осталось всего 10 авто!</div>
+            <div class="title_slide">Грандиозная распродажа <br>
+               тестового парка! Слайд1</div>
+               <div class="text_slide">Узнай свою цену!</div>
+               <div class="slider_radio">
+                  <label>
+                     <input class="slide" type="radio" name="slider" id="1" checked>
+                     <span class="castoum_radio"></span>
+                  </label>
+                  <label>
+                     <input class="slide" type="radio" name="slider" id="2" >
+                     <span class="castoum_radio"></span>
+                  </label>
+                  <label>
+                     <input class="slide" type="radio" name="slider" id="3">
+                     <span class="castoum_radio"></span>
+                  </label>
+                  <label>
+                     <input class="slide" type="radio" name="slider" id="4">
+                     <span class="castoum_radio"></span>
+                  </label>
+                  <label>
+                     <input class="slide" type="radio" name="slider" id="5">
+                     <span class="castoum_radio"></span>
+                  </label>
+                  <label>
+                     <input class="slide" type="radio" name="slider" id="6">
+                     <span class="castoum_radio"></span>
+                  </label> 
+               </div>
+               
+      </div>
+<img class="bg_city" src="/img/bj_city_gray.svg" alt="">
+<img class="skoda_rapid" src="/img/rapid-entry-AVN 1.svg" alt="">
+<img class="rav_new" src="/img/rav_new.svg" alt="">
+<img class="kio_rio" src="/img/rio_new 1.svg" alt="">
+
+
+         </div>
+      </div>
+      
+      </h1>
+      <h1 class="main_slider hidden" id="2">
+         <div class="wrapper-slider">
+            <img class="arrow_left" data-slide="prev" src="/img/arrow_left.svg" alt="">
+            <img class="arrow_right" id="next" src="img/arrow_right.svg" alt="">
+            <div class="container">
+               <div class="sliders">
+                  <div class="title_action">Осталось всего 10 авто!</div>
+                  <div class="title_slide">Грандиозная распродажа Слайд2 <br>
+                     тестового парка!</div>
+                     <div class="text_slide">Узнай свою цену!</div>
+                     <div class="slider_radio">
+                        <label>
+                           <input class="slide" type="radio" name="slider" id="1" >
+                           <span class="castoum_radio"></span>
+                        </label>
+                        <label>
+                           <input class="slide" type="radio" name="slider" id="2">
+                           <span class="castoum_radio"></span>
+                        </label>
+                        <label>
+                           <input class="slide" type="radio" name="slider" id="3">
+                           <span class="castoum_radio"></span>
+                        </label>
+                        <label>
+                           <input class="slide" type="radio" name="slider" id="4">
+                           <span class="castoum_radio"></span>
+                        </label>
+                        <label>
+                           <input class="slide" type="radio" name="slider" id="5">
+                           <span class="castoum_radio"></span>
+                        </label>
+                        <label>
+                           <input class="slide" type="radio" name="slider" id="6">
+                           <span class="castoum_radio"></span>
+                        </label> 
+                     </div>
+                     
+            </div>
+      <img class="bg_city" src="/img/bj_city_gray.svg" alt="">
+      <img class="skoda_rapid" src="/img/rapid-entry-AVN 1.svg" alt="">
+      
+      
+      
+      
+               </div>
+         </div>
+         
+         </h1>
+         <h1 class="main_slider hidden" id="3">
+            <div class="wrapper-slider">
+               <img class="arrow_left" data-slide="prev" src="/img/arrow_left.svg" alt="">
+               <img class="arrow_right" data-slide="next" src="img/arrow_right.svg" alt="">
+               <div class="container">
+                  <div class="sliders">
+                     <div class="title_action">Осталось всего 10 авто!</div>
+                     <div class="title_slide">Грандиозная распродажа Слайд3<br>
+                        тестового парка!</div>
+                        <div class="text_slide">Узнай свою цену!</div>
+                        <div class="slider_radio">
+                           <label>
+                              <input class="slide" type="radio" name="slider" id="1" >
+                              <span class="castoum_radio"></span>
+                           </label>
+                           <label>
+                              <input class="slide" type="radio" name="slider" id="2">
+                              <span class="castoum_radio"></span>
+                           </label>
+                           <label>
+                              <input class="slide" type="radio" name="slider" id="3">
+                              <span class="castoum_radio"></span>
+                           </label>
+                           <label>
+                              <input class="slide" type="radio" name="slider" id="4">
+                              <span class="castoum_radio"></span>
+                           </label>
+                           <label>
+                              <input class="slide" type="radio" name="slider" id="5">
+                              <span class="castoum_radio"></span>
+                           </label>
+                           <label>
+                              <input class="slide" type="radio" name="slider" id="6">
+                              <span class="castoum_radio"></span>
+                           </label> 
+                        </div>
+                        
+               </div>
+         <img class="bg_city" src="/img/bj_city_gray.svg" alt="">
+         
+         
+         <img class="kio_rio" src="/img/rio_new 1.svg" alt="">
+         
+         
+                  </div>
+            </div>
+            
+            </h1>
+               <h1 class="main_slider hidden" id="4">
+                  <div class="wrapper-slider">
+                     <img class="arrow_left" data-slide="prev" src="/img/arrow_left.svg" alt="">
+                     <img class="arrow_right" data-slide="next" src="img/arrow_right.svg" alt="">
+                     <div class="container">
+                        <div class="sliders">
+                           <div class="title_action">Осталось всего 10 авто!</div>
+                           <div class="title_slide">Грандиозная распродажа слайд4<br>
+                              тестового парка!</div>
+                              <div class="text_slide">Узнай свою цену!</div>
+                              <div class="slider_radio">
+                                 <label>
+                                    <input class="slide" type="radio" name="slider" id="1" >
+                                    <span class="castoum_radio"></span>
+                                 </label>
+                                 <label>
+                                    <input class="slide" type="radio" name="slider" id="2" >
+                                    <span class="castoum_radio"></span>
+                                 </label>
+                                 <label>
+                                    <input class="slide" type="radio" name="slider" id="3">
+                                    <span class="castoum_radio"></span>
+                                 </label>
+                                 <label>
+                                    <input class="slide" type="radio" name="slider" id="4">
+                                    <span class="castoum_radio"></span>
+                                 </label>
+                                 <label>
+                                    <input class="slide" type="radio" name="slider" id="5">
+                                    <span class="castoum_radio"></span>
+                                 </label>
+                                 <label>
+                                    <input class="slide" type="radio" name="slider" id="6">
+                                    <span class="castoum_radio"></span>
+                                 </label> 
+                              </div>
+                              
+                     </div>
+               <img class="bg_city" src="/img/bj_city_gray.svg" alt="">
+               <img class="skoda_rapid" src="/img/rapid-entry-AVN 1.svg" alt="">
+               
+               <img class="kio_rio" src="/img/rio_new 1.svg" alt="">
+               
+               
+                        </div>
+                  </div>
+                  
+                  </h1>
+                  <h1 class="main_slider hidden" id="5">
+                     <div class="wrapper-slider">
+                        <img class="arrow_left" data-slide="prev" src="/img/arrow_left.svg" alt="">
+                        <img class="arrow_right" data-slide="next" src="img/arrow_right.svg" alt="">
+                        <div class="container">
+                           <div class="sliders">
+                              <div class="title_action">Осталось всего 10 авто!</div>
+                              <div class="title_slide">Грандиозная распродажа слайд5<br>
+                                 тестового парка!</div>
+                                 <div class="text_slide">Узнай свою цену!</div>
+                                 <div class="slider_radio">
+                                    <label>
+                                       <input class="slide" type="radio" name="slider" id="1" >
+                                       <span class="castoum_radio"></span>
+                                    </label>
+                                    <label>
+                                       <input class="slide" type="radio" name="slider" id="2">
+                                       <span class="castoum_radio"></span>
+                                    </label>
+                                    <label>
+                                       <input class="slide" type="radio" name="slider" id="3">
+                                       <span class="castoum_radio"></span>
+                                    </label>
+                                    <label>
+                                       <input class="slide" type="radio" name="slider" id="4">
+                                       <span class="castoum_radio"></span>
+                                    </label>
+                                    <label>
+                                       <input class="slide" type="radio" name="slider" id="5">
+                                       <span class="castoum_radio"></span>
+                                    </label>
+                                    <label>
+                                       <input class="slide" type="radio" name="slider" id="6">
+                                       <span class="castoum_radio"></span>
+                                    </label> 
+                                 </div>
+                                 
+                        </div>
+                  <img class="bg_city" src="/img/bj_city_gray.svg" alt="">
+                  <img class="skoda_rapid" src="/img/rapid-entry-AVN 1.svg" alt="">
+                  
+                  <img class="kio_rio" src="/img/rio_new 1.svg" alt="">
+                  
+                  
+                           </div>
+                     </div>
+                     
+                     </h1>
+                     <h1 class="main_slider hidden" id="6">
+                        <div class="wrapper-slider">
+                           <img class="arrow_left" data-slide="prev" src="/img/arrow_left.svg" alt="">
+                           <img class="arrow_right" data-slide="next" src="img/arrow_right.svg" alt="">
+                           <div class="container">
+                              <div class="sliders">
+                                 <div class="title_action">Осталось всего 10 авто!</div>
+                                 <div class="title_slide">Грандиозная распродажа слайд6<br>
+                                    тестового парка!</div>
+                                    <div class="text_slide">Узнай свою цену!</div>
+                                    <div class="slider_radio">
+                                       <label>
+                                          <input class="slide" type="radio" name="slider6" id="1" >
+                                          <span class="castoum_radio"></span>
+                                       </label>
+                                       <label>
+                                          <input class="slide" type="radio" name="slider6" id="2">
+                                          <span class="castoum_radio"></span>
+                                       </label>
+                                       <label>
+                                          <input class="slide" type="radio" name="slider6" id="3">
+                                          <span class="castoum_radio"></span>
+                                       </label>
+                                       <label>
+                                          <input class="slide" type="radio" name="slider6" id="4">
+                                          <span class="castoum_radio"></span>
+                                       </label>
+                                       <label>
+                                          <input class="slide" type="radio" name="slider6" id="5">
+                                          <span class="castoum_radio"></span>
+                                       </label>
+                                       <label>
+                                          <input class="slide" type="radio" name="slider6" id="6" >
+                                          <span class="castoum_radio"></span>
+                                       </label> 
+                                    </div>
+                                    
+                           </div>
+                     <img class="bg_city" src="/img/bj_city_gray.svg" alt="">
+                     <img class="skoda_rapid" src="/img/rapid-entry-AVN 1.svg" alt="">
+                     
+                     <img class="kio_rio" src="/img/rio_new 1.svg" alt="">
+                     
+                     
+                              </div>
+                        </div>
+                        
+                        </h1>
+</div>
+   
+       
+   
+<section id="fast_pick">
+   <div class="fast_pick">
+      <div class="container">
+         <div class="fast_pick_title">Быстрый подбор авто</div>
+         <div class="marks_auto">
+            <div class="auto_item of_road boxMech"  data-value="2000000">
+               <img class="logo_auto" src="/icon/kia.svg" alt="">
+               <div class="name_auto">Kia</div>
+            </div>
+            <div class="auto_item hatchback boxAuto"  data-value="3000000">
+               <img class="logo_auto" src="/icon/brilia.svg" alt="">
+               <div class="name_auto">Briliance</div>
+            </div>
+            <div class="auto_item hatchback boxRobo"  data-value="1000000">
+               <img class="logo_auto" src="/icon/citroen.svg" alt="">
+               <div class="name_auto">Citroen</div>
+            </div>
+            <div class="auto_item of_road boxAuto"  data-value="2000000">
+               <img class="logo_auto" src="/icon/ford.svg" alt="">
+               <div class="name_auto">Ford</div>
+            </div>
+            <div class="auto_item hatchback boxAuto"  data-value="3000000">
+               <img class="logo_auto" src="/icon/Lifan.svg" alt="">
+               <div class="name_auto">Lifan</div>
+            </div>
+            <div class="auto_item crossover boxMech"  data-value="1000000">
+               <img class="logo_auto" src="/icon/Pegout.svg" alt="">
+               <div class="name_auto">Peugout</div>
+            </div>
+            <div class="auto_item of_road boxMech"  data-value="3000000">
+               <img class="logo_auto" src="/icon/uaz.svg" alt="">
+               <div class="name_auto">Uaz</div>
+            </div>
+            <div class="auto_item crossover boxAuto"  data-value="2000000">
+               <img class="logo_auto" src="/icon/huynday.svg" alt="">
+               <div class="name_auto">Hyundai</div>
+            </div>
+            <div class="auto_item liftback boxAuto"  data-value="1000000">
+               <img class="logo_auto" src="/icon/changan.svg" alt="">
+               <div class="name_auto">Changan</div>
+            </div>
+            <div class="auto_item liftback boxRobo"  data-value="2000000">
+               <img class="logo_auto" src="/icon/dastun.svg" alt="">
+               <div class="name_auto">Dastun</div>
+            </div>
+            <div class="auto_item hatchback boxMech"  data-value="1000000">
+               <img class="logo_auto" src="/icon/foton.svg" alt="">
+               <div class="name_auto">Foton</div>
+            </div>
+            <div class="auto_item liftback boxMech"  data-value="3000000">
+               <img class="logo_auto" src="/icon/havak.svg" alt="">
+               <div class="name_auto">Haval</div>
+            </div>
+            <div class="auto_item hatchback boxMech"  data-value="3000000">
+               <img class="logo_auto" src="/icon/mazda.svg" alt="">
+               <div class="name_auto">Mazda</div>
+            </div>
+            <div class="auto_item liftback boxMech"  data-value="3000000">
+               <img class="logo_auto" src="/icon/ravon.svg" alt="">
+               <div class="name_auto">Ravon</div>
+            </div>
+            <div class="auto_item of_road"  data-value="1000000">
+               <img class="logo_auto" src="/icon/zoyte.svg  " alt="">
+               <div class="name_auto">Zoyte</div>
+            </div>
+            <div class="auto_item liftback boxMech"  data-value="2000000">
+               <img class="logo_auto" src="/icon/skoda.svg  " alt="">
+               <div class="name_auto">Skoda</div>
+            </div>
+            <div class="auto_item liftback boxRobo" data-value="2000000">
+               <img class="logo_auto" src="/icon/chery.svg  " alt="">
+               <div class="name_auto">Chery</div>
+            </div>
+            <div class="auto_item rodster boxMech"  data-value="1000000">
+               <img class="logo_auto" src="/icon/dongfeng.svg  " alt="">
+               <div class="name_auto">DongFeng</div>
+            </div>
+            <div class="auto_item crossover boxRobo" data-value="2000000">
+               <img class="logo_auto" src="/icon/gac.svg " alt="">
+               <div class="name_auto">GAC</div>
+            </div>
+            <div class="auto_item hatchback boxRobo" data-value="2000000">
+               <img class="logo_auto" src="/icon/honda.svg  " alt="">
+               <div class="name_auto">Honda</div>
+            </div>
+            <div class="auto_item of_road boxAuto" data-value="2000000">
+               <img class="logo_auto" src="/icon/mitsu.svg  " alt="">
+               <div class="name_auto">Mitsubishi</div>
+            </div>
+            <div class="auto_item rodster boxMech"  data-value="3000000">
+               <img class="logo_auto" src="/icon/ranault.svg " alt="">
+               <div class="name_auto">Renault</div>
+            </div>
+            <div class="auto_item hatchback boxAuto" data-value="2000000">
+               <img class="logo_auto" src="/icon//volk.svg " alt="">
+               <div class="name_auto">Volkswagen</div>
+            </div>
+            <div class="auto_item of_road boxAuto" data-value="3000000">
+               <img class="logo_auto" src="/icon/cheruExeed.svg" alt="">
+               <div class="name_auto">CheryExeed</div>
+            </div>
+            <div class="auto_item rodster boxRobo" data-value="2000000">
+               <img class="logo_auto" src="/icon/Dw.svg  " alt="">
+               <div class="name_auto">DW Hower</div>
+            </div>
+            <div class="auto_item crossover boxAuto" data-value="3000000">
+               <img class="logo_auto" src="/icon/geely.svg  " alt="">
+               <div class="name_auto">Geely</div>
+            </div>
+            <div class="auto_item crossover boxAuto" data-value="3000000">
+               <img class="logo_auto" src="/icon/jac.svg " alt="">
+               <div class="name_auto">JAC</div>
+            </div>
+            <div class="auto_item hatchback boxAuto" data-value="3000000">
+               <img class="logo_auto" src="/icon/niss.svg " alt="">
+               <div class="name_auto">Nissan</div>
+            </div>
+            <div class="auto_item crossover boxRobo" data-value="1000000">
+               <img class="logo_auto" src="/icon/young.svg  " alt="">
+               <div class="name_auto">SsangYoung</div>
+            </div>
+            <div class="auto_item of_road boxAuto" data-value="1000000">
+               <img class="logo_auto" src="/icon/tayouta.svg    " alt="">
+               <div class="name_auto">Tayota</div>
+            </div>
+            <div class="auto_item">
+               <img class="logo_auto" src="/icon/chev.svg " alt="">
+               <div class="name_auto">Chevrolet</div>
+            </div>
+            <div class="auto_item crossover boxAuto"  data-value="2000000">
+               <img class="logo_auto" src="/icon/faw.svg  " alt="">
+               <div class="name_auto">FAW</div>
+            </div>
+            <div class="auto_item of_road boxAuto" data-value="1000000">
+               <img class="logo_auto" src="/icon/great.svg" alt="">
+               <div class="name_auto">Great Wall</div>
+            </div>
+            <div class="auto_item rodster boxRobo" data-value="1000000">
+               <img class="logo_auto" src="/icon/lada.svg " alt="">
+               <div class="name_auto">Lada</div>
+            </div>
+            <div class="auto_item of_road boxAuto"  data-value="1000000">
+               <img class="logo_auto" src="/icon/opel.svg " alt="">
+               <div class="name_auto">Opel</div>
+            </div>
+
+            
+         </div>
+         <div class="pick_auto">
+            <div class="title_pick">
+               Быстрый подбор авто
+            </div>
+            <div class="price">
+               <div class="title_price  ">Цена</div>
+               <div class="min_max ">0,00 ₽</div>
+            </div>
+            
+            <label>
+            
+               <input class="price_range" type="range" min="0" max="3000000" value="0" step="1" list="tickmarks" name="" id="price_range" oninput="range()">
+               <div class="under_range ">
+                  <div class="num_null">
+
+                     <div class="linear_range">|</div>
+                     <div class="num_range">0</div>
+                  </div>
+                  <div class="num_500">
+                     <div class="linear_range">|</div>
+                     <div class="num_range">600т</div>
+                  </div>
+                  <div class="num_800">
+                     <div class="linear_range">|</div>
+                     <div class="num_range">900т</div>
+                  </div>
+                  <div class="num_1m">
+                     <div class="linear_range">|</div>
+                     <div class="num_range">1,2м</div>
+                  </div>
+                  <div class="num_14m">
+                     <div class="linear_range">|</div>
+                     <div class="num_range">1,5м</div>
+                  </div>
+                  <div class="num_17m">
+                     <div class="linear_range">|</div>
+                     <div class="num_range">1,8м</div>
+                  </div>
+                  <div class="num_2m">
+                     <div class="linear_range">|</div>
+                     <div class="num_range">2,1м</div>
+                  </div>
+                  <div class="num_23m">
+                     <div class="linear_range">|</div>
+                     <div class="num_range">2,4м</div>
+                  </div>
+                  <div class="num_27m">
+                     <div class="linear_range">|</div>
+                     <div class="num_range">2,7м</div>
+                  </div>
+                  <div class="num_3m">
+                     <div class="linear_range">|</div>
+                     <div class="num_range">3м</div>
+                  </div>
+
+                 
+               </div>
+            </label>
+            <div class="filter_pick">
+               <div class="type_title">
+      <label>
+                     <input class="kuzov_pick_checkbox" type="checkbox" name="" id="">
+                  <div class="type_kuzov">Тип кузова</div>
+               
+                  <div class="title_kuzov_full_info new_closed">
+                     <ul class="title_kuzov_ul">
+                        <li><a class="rodster type_kuzov_item" data-f="">Родстер</a></li>
+                        <li><a class="of_road  type_kuzov_item" data-f="">Внедорожник</a></li>
+                        <li><a class="crossover type_kuzov_item" data-f="">Кроссовер</a></li>
+                        <li><a class="hatchback type_kuzov_item" data-f="">Хэтчбэк</a></li>
+                        <li><a class="liftback type_kuzov_item" data-f="">Лифтбэк</a></li>
+                        
+                     </ul>
+                  </div>
+               </div>
+            </label>
+               <div class="box_title">
+                  <label for="test_box">
+                     <input class="box_pick_checkbox" type="checkbox" name="" id="test_box">
+                  <div class="type_box"  id="test_box">Коробка</div>
+              
+                  <div class="title_box_full_info new_closed">
+                     <ul class="title_box_ul">
+                        
+                        <a class="boxMech type_box_item" data-f="" id="test_box">Механическая</a>
+                        <li><a class="boxAuto type_box_item" data-f=""  id="test_box">Автоматическая</a></li>
+                        <li><a class="boxRobo type_box_item" data-f=""  id="test_box">Роботизированная</a></li>
+                        
+                     </ul>
+                  </div>
+               </div>
+            </label>
+            </div>
+           <button class="show_result">Сортировать</button>
+         </div>
+
+      </div>
+      
+
+   </div>
+</section>
+   
+
+   <div class="autous_cart">
+      <div class="autous_title">Автомобили в наличии с ПТС</div>  
+      <div class="container">
+         
+         <div class="auto_cart">
+            <img class="bg_auto_cart" src="/icon/bg_auto_cart.svg" alt="">
+            <img class="auto_img" src="/icon/auto_cart.svg" alt="">
+            <div class="auto_cart_title">Skoda Octavia <p>
+               1.6 MPI MT Active 1</div>
+               <div class="auto_action">
+                  <div class="action_day">Предложение дня</div>
+                  <div class="action_date">Выгода <p>
+                     до 300 000 ₽</div>
+               </div>
+               <div class="gifts">
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">Оборудование <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+                  
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">КАСКО <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">Комплект резины <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+               </div>
+               <div class="auto_price">
+                  <div class="price_cart"><span class="bold">от 1 615 000 ₽ </span></div>
+                  <div class="credit_cart">Кредит <span class="bold">от 115 000 ₽/мес.</span></div>
+               </div>
+               <div class="specification">
+                  <div class="specification_item">
+                     <img src="/icon/horse.svg" alt="" srcset="">
+                     <span>115 л.с</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/oil.svg" alt="" srcset="">
+                     <span>5.3 л/км</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/speed.svg" alt="" srcset="">
+                     <span>189 км/ч</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/fasters.svg" alt="" srcset="">
+                     <span>10,3 c.</span>
+                  </div>
+               </div>
+               <div class="btn_buy">
+                  <button class="reserve">Резерв онлайн</button>
+                  <button class="bought">Купить</button>
+                  <button class="more_info">Подробнее</button>
+               </div>
+               <div class="icons_auto">
+                  <label>
+                     <input class="for_hearth" type="checkbox" name="" id="check_hearth">
+                     <div class="icon_hearth"></div>
+                  </label>
+                 <label>
+                  <input class="for_tubs" type="checkbox" name="" id="check_tubs">
+                  <div class="icon_tubs"></div>
+                 </label>
+                  
+               </div>
+         </div>
+         <div class="auto_cart">
+            <img class="bg_auto_cart" src="/icon/bg_auto_cart.svg" alt="">
+            <img class="auto_img" src="/icon/auto_cart.svg" alt="">
+            <div class="auto_cart_title">Skoda Octavia <p>
+               1.6 MPI MT Active 2</div>
+               <div class="auto_action">
+                  <div class="action_day">Предложение дня</div>
+                  <div class="action_date">Выгода <p>
+                     до 300 000 ₽</div>
+               </div>
+               <div class="gifts">
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">Оборудование <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+                  
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">КАСКО <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">Комплект резины <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+               </div>
+               <div class="auto_price">
+                  <div class="price_cart"><span class="bold">от 1 615 000 ₽ </span></div>
+                  <div class="credit_cart">Кредит <span class="bold">от 115 000 ₽/мес.</span></div>
+               </div>
+               <div class="specification">
+                  <div class="specification_item">
+                     <img src="/icon/horse.svg" alt="" srcset="">
+                     <span>115 л.с</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/oil.svg" alt="" srcset="">
+                     <span>5.3 л/км</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/speed.svg" alt="" srcset="">
+                     <span>189 км/ч</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/fasters.svg" alt="" srcset="">
+                     <span>10,3 c.</span>
+                  </div>
+               </div>
+               <div class="btn_buy">
+                  <button class="reserve">Резерв онлайн</button>
+                  <button class="bought">Купить</button>
+                  <button class="more_info">Подробнее</button>
+               </div>
+               <div class="icons_auto">
+                  <label>
+                     <input class="for_hearth" type="checkbox" name="" id="check_hearth">
+                     <div class="icon_hearth"></div>
+                  </label>
+                 <label>
+                  <input class="for_tubs" type="checkbox" name="" id="check_tubs">
+                  <div class="icon_tubs"></div>
+                 </label>
+               </div>
+         </div>
+         <div class="auto_cart">
+            <img class="bg_auto_cart" src="/icon/bg_auto_cart.svg" alt="">
+            <img class="auto_img" src="/icon/auto_cart.svg" alt="">
+            <div class="auto_cart_title">Skoda Octavia <p>
+               1.6 MPI MT Active 3</div>
+               <div class="auto_action">
+                  <div class="action_day">Предложение дня</div>
+                  <div class="action_date">Выгода <p>
+                     до 300 000 ₽</div>
+               </div>
+               <div class="gifts">
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">Оборудование <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+                  
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">КАСКО <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">Комплект резины <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+               </div>
+               <div class="auto_price">
+                  <div class="price_cart"><span class="bold">от 1 615 000 ₽ </span></div>
+                  <div class="credit_cart">Кредит <span class="bold">от 115 000 ₽/мес.</span></div>
+               </div>
+               <div class="specification">
+                  <div class="specification_item">
+                     <img src="/icon/horse.svg" alt="" srcset="">
+                     <span>115 л.с</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/oil.svg" alt="" srcset="">
+                     <span>5.3 л/км</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/speed.svg" alt="" srcset="">
+                     <span>189 км/ч</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/fasters.svg" alt="" srcset="">
+                     <span>10,3 c.</span>
+                  </div>
+               </div>
+               <div class="btn_buy">
+                  <button class="reserve">Резерв онлайн</button>
+                  <button class="bought">Купить</button>
+                  <button class="more_info">Подробнее</button>
+               </div>
+               <div class="icons_auto">
+                  <label>
+                     <input class="for_hearth" type="checkbox" name="" id="check_hearth">
+                     <div class="icon_hearth"></div>
+                  </label>
+                 <label>
+                  <input class="for_tubs" type="checkbox" name="" id="check_tubs">
+                  <div class="icon_tubs"></div>
+                 </label>
+               </div>
+         </div>
+         <div class="auto_cart">
+            <img class="bg_auto_cart" src="/icon/bg_auto_cart.svg" alt="">
+            <img class="auto_img" src="/icon/auto_cart.svg" alt="">
+            <div class="auto_cart_title">Skoda Octavia <p>
+               1.6 MPI MT Active </div>
+               <div class="auto_action">
+                  <div class="action_day">Предложение дня</div>
+                  <div class="action_date">Выгода <p>
+                     до 300 000 ₽</div>
+               </div>
+               <div class="gifts">
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">Оборудование <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+                  
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">КАСКО <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">Комплект резины <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+               </div>
+               <div class="auto_price">
+                  <div class="price_cart"><span class="bold">от 1 615 000 ₽ </span></div>
+                  <div class="credit_cart">Кредит <span class="bold">от 115 000 ₽/мес.</span></div>
+               </div>
+               <div class="specification">
+                  <div class="specification_item">
+                     <img src="/icon/horse.svg" alt="" srcset="">
+                     <span>115 л.с</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/oil.svg" alt="" srcset="">
+                     <span>5.3 л/км</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/speed.svg" alt="" srcset="">
+                     <span>189 км/ч</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/fasters.svg" alt="" srcset="">
+                     <span>10,3 c.</span>
+                  </div>
+               </div>
+               <div class="btn_buy">
+                  <button class="reserve">Резерв онлайн</button>
+                  <button class="bought">Купить</button>
+                  <button class="more_info">Подробнее</button>
+               </div>
+               <div class="icons_auto">
+                  <label>
+                     <input class="for_hearth" type="checkbox" name="" id="check_hearth">
+                     <div class="icon_hearth"></div>
+                  </label>
+                 <label>
+                  <input class="for_tubs" type="checkbox" name="" id="check_tubs">
+                  <div class="icon_tubs"></div>
+                 </label>
+               </div>
+         </div>
+         <div class="auto_cart">
+            <img class="bg_auto_cart" src="/icon/bg_auto_cart.svg" alt="">
+            <img class="auto_img" src="/icon/auto_cart.svg" alt="">
+            <div class="auto_cart_title">Skoda Octavia <p>
+               1.6 MPI MT Active 4</div>
+               <div class="auto_action">
+                  <div class="action_day">Предложение дня</div>
+                  <div class="action_date">Выгода <p>
+                     до 300 000 ₽</div>
+               </div>
+               <div class="gifts">
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">Оборудование <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+                  
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">КАСКО <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">Комплект резины <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+               </div>
+               <div class="auto_price">
+                  <div class="price_cart"><span class="bold">от 1 615 000 ₽ </span></div>
+                  <div class="credit_cart">Кредит <span class="bold">от 115 000 ₽/мес.</span></div>
+               </div>
+               <div class="specification">
+                  <div class="specification_item">
+                     <img src="/icon/horse.svg" alt="" srcset="">
+                     <span>115 л.с</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/oil.svg" alt="" srcset="">
+                     <span>5.3 л/км</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/speed.svg" alt="" srcset="">
+                     <span>189 км/ч</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/fasters.svg" alt="" srcset="">
+                     <span>10,3 c.</span>
+                  </div>
+               </div>
+               <div class="btn_buy">
+                  <button class="reserve">Резерв онлайн</button>
+                  <button class="bought">Купить</button>
+                  <button class="more_info">Подробнее</button>
+               </div>
+               <div class="icons_auto">
+                  <label>
+                     <input class="for_hearth" type="checkbox" name="" id="check_hearth">
+                     <div class="icon_hearth"></div>
+                  </label>
+                 <label>
+                  <input class="for_tubs" type="checkbox" name="" id="check_tubs">
+                  <div class="icon_tubs"></div>
+                 </label>
+               </div>
+         </div>
+         <div class="auto_cart">
+            <img class="bg_auto_cart" src="/icon/bg_auto_cart.svg" alt="">
+            <img class="auto_img" src="/icon/auto_cart.svg" alt="">
+            <div class="auto_cart_title">Skoda Octavia <p>
+               1.6 MPI MT Active </div>
+               <div class="auto_action">
+                  <div class="action_day">Предложение дня</div>
+                  <div class="action_date">Выгода <p>
+                     до 300 000 ₽</div>
+               </div>
+               <div class="gifts">
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">Оборудование <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+                  
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">КАСКО <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">Комплект резины <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+               </div>
+               <div class="auto_price">
+                  <div class="price_cart"><span class="bold">от 1 615 000 ₽ </span></div>
+                  <div class="credit_cart">Кредит <span class="bold">от 115 000 ₽/мес.</span></div>
+               </div>
+               <div class="specification">
+                  <div class="specification_item">
+                     <img src="/icon/horse.svg" alt="" srcset="">
+                     <span>115 л.с</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/oil.svg" alt="" srcset="">
+                     <span>5.3 л/км</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/speed.svg" alt="" srcset="">
+                     <span>189 км/ч</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/fasters.svg" alt="" srcset="">
+                     <span>10,3 c.</span>
+                  </div>
+               </div>
+               <div class="btn_buy">
+                  <button class="reserve">Резерв онлайн</button>
+                  <button class="bought">Купить</button>
+                  <button class="more_info">Подробнее</button>
+               </div>
+               <div class="icons_auto">
+                  <label>
+                     <input class="for_hearth" type="checkbox" name="" id="check_hearth">
+                     <div class="icon_hearth"></div>
+                  </label>
+                 <label>
+                  <input class="for_tubs" type="checkbox" name="" id="check_tubs">
+                  <div class="icon_tubs"></div>
+                 </label>
+               </div>
+         </div>
+         <div class="auto_cart">
+            <img class="bg_auto_cart" src="/icon/bg_auto_cart.svg" alt="">
+            <img class="auto_img" src="/icon/auto_cart.svg" alt="">
+            <div class="auto_cart_title">Skoda Octavia <p>
+               1.6 MPI MT Active </div>
+               <div class="auto_action">
+                  <div class="action_day">Предложение дня</div>
+                  <div class="action_date">Выгода <p>
+                     до 300 000 ₽</div>
+               </div>
+               <div class="gifts">
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">Оборудование <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+                  
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">КАСКО <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">Комплект резины <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+               </div>
+               <div class="auto_price">
+                  <div class="price_cart"><span class="bold">от 1 615 000 ₽ </span></div>
+                  <div class="credit_cart">Кредит <span class="bold">от 115 000 ₽/мес.</span></div>
+               </div>
+               <div class="specification">
+                  <div class="specification_item">
+                     <img src="/icon/horse.svg" alt="" srcset="">
+                     <span>115 л.с</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/oil.svg" alt="" srcset="">
+                     <span>5.3 л/км</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/speed.svg" alt="" srcset="">
+                     <span>189 км/ч</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/fasters.svg" alt="" srcset="">
+                     <span>10,3 c.</span>
+                  </div>
+               </div>
+               <div class="btn_buy">
+                  <button class="reserve">Резерв онлайн</button>
+                  <button class="bought">Купить</button>
+                  <button class="more_info">Подробнее</button>
+               </div>
+               <div class="icons_auto">
+                  <label>
+                     <input class="for_hearth" type="checkbox" name="" id="check_hearth">
+                     <div class="icon_hearth"></div>
+                  </label>
+                 <label>
+                  <input class="for_tubs" type="checkbox" name="" id="check_tubs">
+                  <div class="icon_tubs"></div>
+                 </label>
+               </div>
+         </div>
+         <div class="auto_cart">
+            <img class="bg_auto_cart" src="/icon/bg_auto_cart.svg" alt="">
+            <img class="auto_img" src="/icon/auto_cart.svg" alt="">
+            <div class="auto_cart_title">Skoda Octavia <p>
+               1.6 MPI MT Active </div>
+               <div class="auto_action">
+                  <div class="action_day">Предложение дня</div>
+                  <div class="action_date">Выгода <p>
+                     до 300 000 ₽</div>
+               </div>
+               <div class="gifts">
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">Оборудование <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+                  
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">КАСКО <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">Комплект резины <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+               </div>
+               <div class="auto_price">
+                  <div class="price_cart"><span class="bold">от 1 615 000 ₽ </span></div>
+                  <div class="credit_cart">Кредит <span class="bold">от 115 000 ₽/мес.</span></div>
+               </div>
+               <div class="specification">
+                  <div class="specification_item">
+                     <img src="/icon/horse.svg" alt="" srcset="">
+                     <span>115 л.с</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/oil.svg" alt="" srcset="">
+                     <span>5.3 л/км</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/speed.svg" alt="" srcset="">
+                     <span>189 км/ч</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/fasters.svg" alt="" srcset="">
+                     <span>10,3 c.</span>
+                  </div>
+               </div>
+               <div class="btn_buy">
+                  <button class="reserve">Резерв онлайн</button>
+                  <button class="bought">Купить</button>
+                  <button class="more_info">Подробнее</button>
+               </div>
+               <div class="icons_auto">
+                  <label>
+                     <input class="for_hearth" type="checkbox" name="" id="check_hearth">
+                     <div class="icon_hearth"></div>
+                  </label>
+                 <label>
+                  <input class="for_tubs" type="checkbox" name="" id="check_tubs">
+                  <div class="icon_tubs"></div>
+                 </label>
+               </div>
+         </div>
+         <div class="auto_cart">
+            <img class="bg_auto_cart" src="/icon/bg_auto_cart.svg" alt="">
+            <img class="auto_img" src="/icon/auto_cart.svg" alt="">
+            <div class="auto_cart_title">Skoda Octavia <p>
+               1.6 MPI MT Active </div>
+               <div class="auto_action">
+                  <div class="action_day">Предложение дня</div>
+                  <div class="action_date">Выгода <p>
+                     до 300 000 ₽</div>
+               </div>
+               <div class="gifts">
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">Оборудование <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+                  
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">КАСКО <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">Комплект резины <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+               </div>
+               <div class="auto_price">
+                  <div class="price_cart"><span class="bold">от 1 615 000 ₽ </span></div>
+                  <div class="credit_cart">Кредит <span class="bold">от 115 000 ₽/мес.</span></div>
+               </div>
+               <div class="specification">
+                  <div class="specification_item">
+                     <img src="/icon/horse.svg" alt="" srcset="">
+                     <span>115 л.с</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/oil.svg" alt="" srcset="">
+                     <span>5.3 л/км</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/speed.svg" alt="" srcset="">
+                     <span>189 км/ч</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/fasters.svg" alt="" srcset="">
+                     <span>10,3 c.</span>
+                  </div>
+               </div>
+               <div class="btn_buy">
+                  <button class="reserve">Резерв онлайн</button>
+                  <button class="bought">Купить</button>
+                  <button class="more_info">Подробнее</button>
+               </div>
+               <div class="icons_auto">
+                  <label>
+                     <input class="for_hearth" type="checkbox" name="" id="check_hearth">
+                     <div class="icon_hearth"></div>
+                  </label>
+                 <label>
+                  <input class="for_tubs" type="checkbox" name="" id="check_tubs">
+                  <div class="icon_tubs"></div>
+                 </label>
+               </div>
+         </div>
+         <div class="auto_cart">
+            <img class="bg_auto_cart" src="/icon/bg_auto_cart.svg" alt="">
+            <img class="auto_img" src="/icon/auto_cart.svg" alt="">
+            <div class="auto_cart_title">Skoda Octavia <p>
+               1.6 MPI MT Active </div>
+               <div class="auto_action">
+                  <div class="action_day">Предложение дня</div>
+                  <div class="action_date">Выгода <p>
+                     до 300 000 ₽</div>
+               </div>
+               <div class="gifts">
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">Оборудование <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+                  
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">КАСКО <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+                  <div class="gift">
+                     <button class="gift_btn"><img src="/icon/free_gift.svg" alt="" srcset=""></button>
+                     <div class="gift_text">Комплект резины <p>
+                       <span class="red_text">в подарок</span></div>
+                  </div>
+               </div>
+               <div class="auto_price">
+                  <div class="price_cart"><span class="bold">от 1 615 000 ₽ </span></div>
+                  <div class="credit_cart">Кредит <span class="bold">от 115 000 ₽/мес.</span></div>
+               </div>
+               <div class="specification">
+                  <div class="specification_item">
+                     <img src="/icon/horse.svg" alt="" srcset="">
+                     <span>115 л.с</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/oil.svg" alt="" srcset="">
+                     <span>5.3 л/км</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/speed.svg" alt="" srcset="">
+                     <span>189 км/ч</span>
+                  </div>
+                  <div class="specification_item">
+                     <img src="/icon/fasters.svg" alt="" srcset="">
+                     <span>10,3 c.</span>
+                  </div>
+               </div>
+               <div class="btn_buy">
+                  <button class="reserve">Резерв онлайн</button>
+                  <button class="bought">Купить</button>
+                  <button class="more_info">Подробнее</button>
+               </div>
+               <div class="icons_auto">
+                  <label>
+                     <input class="for_hearth" type="checkbox" name="" id="check_hearth">
+                     <div class="icon_hearth"></div>
+                  </label>
+                 <label>
+                  <input class="for_tubs" type="checkbox" name="" id="check_tubs">
+                  <div class="icon_tubs"></div>
+                 </label>
+               </div>
+         </div>
+      </div>
+      <div class="w100"><button class="show_more" id="show_more">Показать еще</button></div> 
+      <div class="for_close_more new_closed"><button class="close_more" id="close_more">Скрыть</button></div>
+   </div>
+
+   <div class="rec">
+      <div class="container">
+         <div class="header_rec">
+            <div class="reс_title">
+               <div class="reс_inner">
+                  <span class="reс_text">Наши подборки</span> 
+                  <span class="red">Все подборки</span>
+               </div>
+               
+            </div>
+            <div class="arrow_rec">
+               <button class="arrow_rec_left"><img src="/icon/arrow_small_left.svg" alt=""></button>
+               <button class="arrow_rec_right"><img src="/icon/arrow_small.svg" alt=""></button>
+            </div>
+         </div>
+        
+         <div class="type_cars">
+            <div class="family_cars" id="family1">
+               <div class="info_cars">
+                  <img class="info_img" src="/icon/family_cars.svg" width="480" height="380" alt="" srcset="">
+                  <div class="title_info">Семейные1 <br> автомобили</div>
+                  <button class="sh_info">Посмотреть</button>
+               </div>
+               
+               
+            </div>
+            <div class="family_cars" id="family2">
+               <div class="info_cars">
+                  <img class="info_img" src="/icon/cars_for_travel.svg" width="480" height="380" alt="" srcset="">
+                  <div class="title_info">Автомобили для2 <br> путешествий </div>
+                  <button class="sh_info">Посмотреть</button>
+               </div>
+               
+            </div>
+            <div class="family_cars" id="family3"> 
+               <div class="info_cars">
+                  <img class="info_img" src="/icon/city_cars.svg" width="480" height="380"  alt="" srcset="">
+                  <div class="title_info">Городские3 <br> автомобили</div>
+                  <button class="sh_info">Посмотреть</button>
+               </div>
+               
+            </div>
+            <div class="family_cars " id="family4">
+               <div class="info_cars">
+                  <img class="info_img" src="/icon/city_cars.svg" width="480" height="380"  alt="" srcset="">
+                  <div class="title_info">Городские4 <br> автомобили</div>
+                  <button class="sh_info">Посмотреть</button>
+               </div>
+               
+            </div>
+            <div class="family_cars " id="family5">
+               <div class="info_cars">
+                  <img class="info_img" src="/icon/city_cars.svg" width="480" height="380"  alt="" srcset="">
+                  <div class="title_info">Городские5 <br> автомобили</div>
+                  <button class="sh_info">Посмотреть</button>
+               </div>
+               
+            </div>
+            <div class="family_cars " id="family6">
+               <div class="info_cars">
+                  <img class="info_img" src="/icon/city_cars.svg" width="480" height="380"  alt="" srcset="">
+                  <div class="title_info">Городские6 <br> автомобили</div>
+                  <button class="sh_info">Посмотреть</button>
+               </div>
+               
+            </div>
+         </div>
+       
+      </div>
+     
+   </div>
+
+      <div class="offers">
+         <div class="container">
+            <div class="offers_main">
+               <div class="alert_okey new_closed alert_okey_offer"><img class="okey_green" src="/js_for_main_menu/okey_green.png" alt="">
+                  <span class="alert_text">Ваша заявка принята</span> 
+                  </div>
+               <img class="punch" src="/img/punch.svg" alt="">
+               <div class="offers_inner">
+                  <div class="title_offers">Перебьем предложения от конкурентов!</div>
+                  <div class="subtitle_offers">Скидки <span class="text_red"> от 10 до 25%</span> на стоимость автомобиля </div>
+                  <form class="offers_form">
+                     <input class="offers_input" type="text" placeholder="Ваш телефон" id="offers_input" value="">
+                     <button type="button" class="offers_btn">Получить предложения</button>
+                  </form>
+                  <div class="error_red new_closed error_red_offer"><img class="okey_green" src="/js_for_main_menu/error_red.jpg" alt="">
+                     <span class="alert_text">Заполните все данные</span> 
+                     </div>
+                  <div class="footer_offers">
+                     Нажимая кнопку “Отправить” Вы даете согласие на обработку своих <u class="user_offer">персональных данных</u>.
+                  </div>
+               </div>
+            </div>
+            
+         </div>
+      </div>
+
+      <!-- Спецпредложения Спецпредложения -->
+
+      <div class="special_offers">
+         <div class="container">
+            <div class="special_header">
+               <div class="special_offers_title">Спецпредложения</div>
+               <div class="arrow_rec">
+                  <button class="arrow_rec_left special_arrow_left"><img src="/icon/arrow_small_left.svg" alt=""></button>
+                  <button class="arrow_rec_right special_arrow_right"><img src="/icon/arrow_small.svg" alt=""></button>
+               </div>
+            </div>
+
+            <div class="type_special_offers">
+               <div class="special_offer" id="special_offer1">
+                  <img class="img_special" src="img/first_auto.svg" width="480" alt="">
+                  <div class="title_special">Первый автомобиль1</div>
+                  <div class="subtitle_special">1,9% по льготной ставке</div>
+                  <button class="know_more">Узнать больше</button>
+               </div>
+               <div class="special_offer" id="special_offer2">
+                  <img class="img_special" src="img/fam_credit_auto.svg" width="480" alt="">
+                  <div class="title_special">Семейный автомобиль2</div>
+                  <div class="subtitle_special">1,9% по льготной ставке</div>
+                  <button class="know_more">Узнать больше</button>
+               </div>
+               <div class="special_offer" id="special_offer3">
+                  <img class="img_special" src="img/exp_credit_auto.svg" width="480" alt="">
+                  <div class="title_special">Экспресс-кредит3</div>
+                  <div class="subtitle_special">1,9% по льготной ставке</div>
+                  <button class="know_more">Узнать больше</button>
+               </div>
+               <div class="special_offer" id="special_offer4">
+                  <img class="img_special" src="img/exp_credit_auto.svg" width="480" alt="">
+                  <div class="title_special">Экспресс-кредит4</div>
+                  <div class="subtitle_special">1,9% по льготной ставке</div>
+                  <button class="know_more">Узнать больше</button>
+               </div>
+               <div class="special_offer" id="special_offer5">
+                  <img class="img_special" src="img/exp_credit_auto.svg" width="480" alt="">
+                  <div class="title_special">Экспресс-кредит5</div>
+                  <div class="subtitle_special">1,9% по льготной ставке</div>
+                  <button class="know_more">Узнать больше</button>
+               </div>
+               <div class="special_offer" id="special_offer6">
+                  <img class="img_special" src="img/exp_credit_auto.svg" width="480" alt="">
+                  <div class="title_special">Экспресс-кредит6</div>
+                  <div class="subtitle_special">1,9% по льготной ставке</div>
+                  <button class="know_more">Узнать больше</button>
+               </div>
+               <div class="special_offer" id="special_offer7">
+                  <img class="img_special" src="img/exp_credit_auto.svg" width="480" alt="">
+                  <div class="title_special">Экспресс-кредит7</div>
+                  <div class="subtitle_special">1,9% по льготной ставке</div>
+                  <button class="know_more">Узнать больше</button>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- // ЗАЯВКА НА КРЕДИТ -->
+
+      <div class="application_credit">
+         <div class="application_title">Заявка на автокредит</div>
+         <div class="container">
+            
+            <div class="filter_app">
+            <div class="type_auto">
+               <label>
+                  <input class="title_type_vec_input" type="checkbox" name="" id="vec_mark_input">
+                  <div class="title_type marks_open_type">
+                     <span class="alert_mark_error new_closed">Выберите марку!</span> 
+                       
+                        <div class="title_type_vec marks_vec_type">Марка
+                           
+                        </div>
+                    
+                        
+                           <div class="marks_vec new_closed">
+                              <ul class="title_mark_ul ">
+                                 <li><a class="Tayota_car type_mark_item" data-mark="">Tayota</a></li>
+                                 <li><a class="Nissan_car type_mark_item" data-mark="">Nissan</a></li>
+                                 <li><a class="Lada_car type_mark_item" data-mark="">Lada</a></li>
+                                 <li><a class="Skoda_car type_mark_item" data-mark="">Skoda</a></li>
+                                 <li><a class="Opel_car type_mark_item" data-mark="">Opel</a></li>
+                
+                              </ul>
+                        </div>
+                  </div>
+               </label>   
+                     
+                
+               <label>
+                  <input class="title_type_vec_input" type="checkbox" name="" id="vec_input">
+                  <div class="title_type model_vec_type">
+                    
+                        
+                        <div class="title_type_vec model_vec">Модель
+                        </div>
+                    
+                        
+                           <div class="title_marks_info model_vec_info new_closed">
+                              <ul class="title_mark_ul">
+                                 <li><a class="Tayota_car Camr type_model_item" data-model="">Camry</a></li>
+                                 <li><a class="Tayota_car Land Cruiser type_model_item " data-model="">Land Cruiser</a></li>
+                                 <li><a class="Tayota_car Prada type_model_item " data-model="">Prada</a></li>
+                                 <li><a class="Skoda_car Octavia type_model_item " data-model="">Octavia</a></li>
+                                 <li><a class="Skoda_car Rapid type_model_item " data-model="">Rapid</a></li>
+                                 <li><a class="Skoda_car Yeti type_model_item " data-model="">Yeti</a></li>
+                                 <li><a class="Nissan_car Teana type_model_item " data-model="">Teana</a></li>
+                                 <li><a class="Nissan_car X-trail type_model_item " data-model="">X-trail</a></li>
+                
+                              </ul>
+                        </div>
+                  </div>
+               </label>  
+               <label>
+                  <input class="title_type_vec_input" type="checkbox" name="" id="vec_input">
+                  <div class="title_type equip_vec_type">
+                    
+                        
+                        <div class="title_type_vec equip_vec">Комплектация
+                        </div>
+                    
+                        
+                           <div class="title_marks_info equip_vec_info new_closed">
+                              <ul class="title_mark_ul ">
+                                 <li><a class="base type_equip_item" data-equip="">Базовая</a></li>
+                                 <li><a class="minimal type_equip_item" data-equip="">Минимальная</a></li>
+                                 <li><a class="action type_equip_item" data-equip="">Акционная</a></li>
+                                 <li><a class="limited type_equip_item" data-equip="">Лимитед</a></li>
+                                 
+                
+                              </ul>
+                        </div>
+                  </div>
+               </label> 
+            </div>     
+               
+               <div class="num_contribution">
+                  <div class="first_contribution">
+                     <img src="/img/credit_auto.svg" alt="">
+                     <div class="contribution_inner">
+                        <span class="first_contribution_sum">0,00 ₽</span>
+                        <span class="first_contribution_remains">0,00 ₽</span>
+                        <input class="contribution_sum_remains_range" min="0" max="3000000" step="1" value="0" type="range" id="result_range_credit">
+                        
+                        <span class="sum_text">Первоначальный <br> взнос</span>
+                        
+                        <span class="remains_text">Остаток <br>
+                           по кредиту</span>
+                     </div>
+                  </div>
+                     
+               <div class="second_contribution">
+                  <div class="price">
+                     <div class="title_price">Сумма кредита, руб</div>
+                     <div class="min_max_credit">0,00 ₽ </div>
+                  </div>
+                  <label>
+                     <input class="govno_range" type="range" min="0" max="3000000" value="0" step="5000" list="tickmarks" name="" id="price_range_offer">
+                    
+                     <div class="under_range">
+                        
+                        <div class="num_null">
+      
+                           <div class="linear_range">|</div>
+                           <div class="num_range">0</div>
+                        </div>
+                        <div class="num_500">
+                           <div class="linear_range">|</div>
+                           <div class="num_range">600т</div>
+                        </div>
+                        <div class="num_800">
+                           <div class="linear_range">|</div>
+                           <div class="num_range">900т</div>
+                        </div>
+                        <div class="num_1m">
+                           <div class="linear_range">|</div>
+                           <div class="num_range">1,2м</div>
+                        </div>
+                        <div class="num_14m">
+                           <div class="linear_range">|</div>
+                           <div class="num_range">1,5м</div>
+                        </div>
+                        <div class="num_17m">
+                           <div class="linear_range">|</div>
+                           <div class="num_range">1,8м</div>
+                        </div>
+                        <div class="num_2m">
+                           <div class="linear_range">|</div>
+                           <div class="num_range">2,1м</div>
+                        </div>
+                        <div class="num_23m">
+                           <div class="linear_range">|</div>
+                           <div class="num_range">2,4м</div>
+                        </div>
+                        <div class="num_27m">
+                           <div class="linear_range">|</div>
+                           <div class="num_range">2,7м</div>
+                        </div>
+                        <div class="num_3m">
+                           <div class="linear_range">|</div>
+                           <div class="num_range">3м</div>
+                        </div>
+                        <span class="alert_mark_error take_price new_closed">Укажите сумму кредита!</span>
+                     </div>
+                  </label>
+                  <div class="price">
+                     <div class="title_price">Срок кредита, мес</div>
+                     <div class="min_max_month">6мес.</div>
+                  </div>
+                  <label>
+                     <input class="govno_range" type="range" min="0" max="84" value="0" step="1" list="tickmarks" name="" id="month_range">
+                     <div class="under_range_credit">
+                        <div class="num_">
+      
+                           
+                           <div class="num_range">0</div>
+                        </div>
+                        <div class="num_">
+      
+                           
+                           <div class="num_range">8</div>
+                        </div>
+                        <div class="num_">
+                           
+                           <div class="num_range">19</div>
+                        </div>
+                        <div class="num_">
+                           
+                           <div class="num_range">29</div>
+                        </div>
+                        <div class="num_">
+                           
+                           <div class="num_range">40</div>
+                        </div>
+                        <div class="num_">
+                           
+                           <div class="num_range">51</div>
+                        </div>
+                        <div class="num_">
+                           
+                           <div class="num_range">61</div>
+                        </div>
+                        <div class="num_">
+                           
+                           <div class="num_range">72</div>
+                        </div>
+                        <div class="num_">
+                           
+                           <div class="num_range">84</div>
+                        </div>
+                     </div>
+                  </label>
+
+                  <div class="first_vznos">
+                     <div class="title_vznos">Первоначальный <br> взнос, руб
+                     
+                   </div>
+                    
+                     <input class="input_vznos" type="text" placeholder="0" name="" id="input_vznos" value="">
+                     <span class="alert_mark_error vzons_error new_closed">Не должно превышать 50% от суммы кредита.</span>
+                  </div>
+                  
+               </div>
+               </div>  
+            </div>
+            <div class="take_offers">
+               <div class="title_take_offers">Получить выгоду <br>
+                  <span class="text_red">300 000 ₽</span></div>
+                  <form class="name_number">
+                     <input class="you_name" placeholder="Ваше имя" type="text" name="" id="you_name_offer" value="">
+                     <input class="you_number you_number_offer" placeholder="Ваш телефон" type="text" name="" id="you_number_offer" value="">
+                     <button type="button" class="btn_name_number" id="btn_accept_name_number">Получить предложение</button>
+                  </form>
+                  <div class="footer_offers">
+                     Нажимая кнопку “Получить скидку” Вы даете согласие на обработку своих <u>персональных данных</u>.
+                  </div>
+                  <div class="alert_okey new_closed alert_okey_credit"><img class="okey_green" src="/js_for_main_menu/okey_green.png" alt="">
+                     <span class="alert_text">Ваша заявка принята</span> 
+                     </div>
+                     <div class="error_red new_closed  alert_error_credit"><img class="okey_green" src="/js_for_main_menu/error_red.jpg" alt="">
+                        <span class="alert_text">Заполните все данные</span> 
+                        </div>
+            </div>
+
+         </div>
+      </div>
+
+      <!-- Банки-партнеры -->
+
+      <div class="special_offers">
+         <div class="container">
+            <div class="special_header">
+               <div class="special_offers_title">Банки-партнеры</div>
+               <div class="arrow_rec">
+                  <button class="arrow_rec_left" id="prev_bank"><img src="/icon/arrow_small_left.svg" alt=""></button>
+                  <button class="arrow_rec_right" id="next_bank"><img src="/icon/arrow_small.svg" alt=""></button>
+               </div>
+            </div>
+            <div class="banks">
+               <div class="item_bank" id="bank1">
+                  <img class="img_bank" src="/img/alfa-bank.svg" alt="">
+               </div>
+               <div class="item_bank" id="bank2">
+                  <img class="img_bank" src="/img/strah_bank.svg" alt="">
+               </div>
+               <div class="item_bank" id="bank3">
+                  <img class="img_bank" src="/img/sovkom_bank.svg" alt="">
+               </div>
+               <div class="item_bank" id="bank4">
+                  <img class="img_bank" src="/img/ros_bank.svg" alt="">
+               </div>
+               <div class="item_bank" id="bank5">
+                  <img class="img_bank" src="/img/ros_bank.svg" alt="">
+               </div>
+               <div class="item_bank" id="bank6">
+                  <img class="img_bank" src="/img/ros_bank.svg" alt="">
+               </div>
+               <div class="item_bank" id="bank7">
+                  <img class="img_bank" src="/img/ros_bank.svg" alt="">
+               </div>
+               
+            </div>
+
+         </div>
+      </div>
+
+      <!-- НАМ ДОВЕРЯЮТ -->
+
+      <div class="special_offers">
+         <div class="container">
+            <div class="special_header">
+               <div class="special_offers_title">Нам доверяют</div>
+               <div class="arrow_rec">
+                  <button class="arrow_rec_left" id="prev_feedback_btn"><img src="/icon/arrow_small_left.svg" alt="" ></button>
+                  <button class="arrow_rec_right" id="next_feedback_btn"><img src="/icon/arrow_small.svg" alt=""></button>
+               </div>
+            </div>
+            <div class="feedbacks">
+               <div class="item_feedbacks">
+                  <div class="title_feedback">Сайт отзовик</div>
+                  <div class="subtitle_feedback">Название автосалона</div>
+                     <div class="rating">
+                        <span class="rating_title">Рекомендуют 90%</span>
+                        <div class="rating_stars">
+                           <span><img src="/img/star_yellow.svg" alt=""></span>
+                           <span><img src="/img/star_yellow.svg" alt=""></span>
+                           <span><img src="/img/star_yellow.svg" alt=""></span>
+                           <span><img src="/img/star_yellow.svg" alt=""></span>
+                           <span><img src="/img/star_yellow_grey.svg" alt=""></span>
+                           <span class="green_bg">4.5</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item_feedbacks">
+                     <div class="title_feedback">Сайт отзовик</div>
+                     <div class="subtitle_feedback">Название автосалона</div>
+                        <div class="rating">
+                           <span class="rating_title">Рекомендуют 90%</span>
+                           <div class="rating_stars">
+                              <span><img src="/img/star_yellow.svg" alt=""></span>
+                              <span><img src="/img/star_yellow.svg" alt=""></span>
+                              <span><img src="/img/star_yellow.svg" alt=""></span>
+                              <span><img src="/img/star_yellow.svg" alt=""></span>
+                              <span><img src="/img/star_yellow_grey.svg" alt=""></span>
+                              <span class="green_bg">4.5</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="item_feedbacks">
+                        <div class="title_feedback">Сайт отзовик</div>
+                        <div class="subtitle_feedback">Название автосалона</div>
+                           <div class="rating">
+                              <span class="rating_title">Рекомендуют 90%</span>
+                              <div class="rating_stars">
+                                 <span><img src="/img/star_yellow.svg" alt=""></span>
+                                 <span><img src="/img/star_yellow.svg" alt=""></span>
+                                 <span><img src="/img/star_yellow.svg" alt=""></span>
+                                 <span><img src="/img/star_yellow.svg" alt=""></span>
+                                 <span><img src="/img/star_yellow_grey.svg" alt=""></span>
+                                 <span class="green_bg">4.5</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="item_feedbacks">
+                           <div class="title_feedback">Сайт отзовик</div>
+                           <div class="subtitle_feedback">Название автосалона</div>
+                              <div class="rating">
+                                 <span class="rating_title">Рекомендуют 90%</span>
+                                 <div class="rating_stars">
+                                    <span><img src="/img/star_yellow.svg" alt=""></span>
+                                    <span><img src="/img/star_yellow.svg" alt=""></span>
+                                    <span><img src="/img/star_yellow.svg" alt=""></span>
+                                    <span><img src="/img/star_yellow.svg" alt=""></span>
+                                    <span><img src="/img/star_yellow_grey.svg" alt=""></span>
+                                    <span class="green_bg">4.5</span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="item_feedbacks">
+                              <div class="title_feedback">Сайт отзовик</div>
+                              <div class="subtitle_feedback">Название автосалона</div>
+                                 <div class="rating">
+                                    <span class="rating_title">Рекомендуют 90%</span>
+                                    <div class="rating_stars">
+                                       <span><img src="/img/star_yellow.svg" alt=""></span>
+                                       <span><img src="/img/star_yellow.svg" alt=""></span>
+                                       <span><img src="/img/star_yellow.svg" alt=""></span>
+                                       <span><img src="/img/star_yellow.svg" alt=""></span>
+                                       <span><img src="/img/star_yellow_grey.svg" alt=""></span>
+                                       <span class="green_bg">4.5</span>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="item_feedbacks">
+                                 <div class="title_feedback">Сайт отзовик</div>
+                                 <div class="subtitle_feedback">Название автосалона</div>
+                                    <div class="rating">
+                                       <span class="rating_title">Рекомендуют 90%</span>
+                                       <div class="rating_stars">
+                                          <span><img src="/img/star_yellow.svg" alt=""></span>
+                                          <span><img src="/img/star_yellow.svg" alt=""></span>
+                                          <span><img src="/img/star_yellow.svg" alt=""></span>
+                                          <span><img src="/img/star_yellow.svg" alt=""></span>
+                                          <span><img src="/img/star_yellow_grey.svg" alt=""></span>
+                                          <span class="green_bg">4.5</span>
+                                       </div>
+                                    </div>
+                                 </div>
+                           <div class="item_feedbacks">
+                              <div class="title_feedback">Сайт отзовик</div>
+                              <div class="subtitle_feedback">Название автосалона</div>
+                                 <div class="rating">
+                                    <span class="rating_title">Рекомендуют 90%</span>
+                                    <div class="rating_stars">
+                                       <span><img src="/img/star_yellow.svg" alt=""></span>
+                                       <span><img src="/img/star_yellow.svg" alt=""></span>
+                                       <span><img src="/img/star_yellow.svg" alt=""></span>
+                                       <span><img src="/img/star_yellow.svg" alt=""></span>
+                                       <span><img src="/img/star_yellow_grey.svg" alt=""></span>
+                                       <span class="green_bg">4.5</span>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="item_feedbacks">
+                                 <div class="title_feedback">Сайт отзовик</div>
+                                 <div class="subtitle_feedback">Название автосалона</div>
+                                    <div class="rating">
+                                       <span class="rating_title">Рекомендуют 90%</span>
+                                       <div class="rating_stars">
+                                          <span><img src="/img/star_yellow.svg" alt=""></span>
+                                          <span><img src="/img/star_yellow.svg" alt=""></span>
+                                          <span><img src="/img/star_yellow.svg" alt=""></span>
+                                          <span><img src="/img/star_yellow.svg" alt=""></span>
+                                          <span><img src="/img/star_yellow_grey.svg" alt=""></span>
+                                          <span class="green_bg">4.5</span>
+                                       </div>
+                                    </div>
+                                 </div>
+                                
+                                 </div>
+                                 <div class="feedbacks_v2">
+                                    <div class="item_feedbacks_v2">
+                                       <div class="title_feedback_v2"><img src="/img/yandex-maps-logo 1.svg" alt=""></div>
+                                       <div class="subtitle_feedback_v2">Название автосалона</div>
+                                          <div class="rating_v2">
+                                             <span class="rating_title_v2">Рекомендуют 90%</span>
+                                             <div class="rating_stars_v2">
+                                                <span><img src="/img/star_yellow.svg" alt=""></span>
+                                                <span><img src="/img/star_yellow.svg" alt=""></span>
+                                                <span><img src="/img/star_yellow.svg" alt=""></span>
+                                                <span><img src="/img/star_yellow.svg" alt=""></span>
+                                                <span><img src="/img/star_yellow_grey.svg" alt=""></span>
+                                             </div>
+                                             <span class="green_bg_v2">4.5</span>
+                                          </div>
+                                       </div>
+                                       <div class="item_feedbacks_v2">
+                                          <div class="title_feedback_v2"><img src="/img/Google_Maps_Logo 2.svg" alt=""></div>
+                                          <div class="subtitle_feedback_v2">Название автосалона</div>
+                                             <div class="rating_v2">
+                                                <span class="rating_title_v2">Рекомендуют 90%</span>
+                                                <div class="rating_stars_v2">
+                                                   <span><img src="/img/star_yellow.svg" alt=""></span>
+                                                   <span><img src="/img/star_yellow.svg" alt=""></span>
+                                                   <span><img src="/img/star_yellow.svg" alt=""></span>
+                                                   <span><img src="/img/star_yellow.svg" alt=""></span>
+                                                   <span><img src="/img/star_yellow_grey.svg" alt=""></span>
+                                                </div>
+                                                <span class="green_bg_v2">4.1</span>
+                                             </div>
+                                  </div>
+                                 </div>
+                          
+            </div>
+
+         </div>
+      </div>
+
+      <!-- ОЗЫВЫ ОТЗЫВ ОТЗЫВ -->
+
+      <div class="reviews">
+         <div class="container">
+            <div class="title_reviews">Отзывы</div>
+               <div class="reviews_items">
+                  <div class="reviews_inner">
+                     <div class="head_reviews">
+                        <button class="btn_play"><img class="img_play" src="/img/play.svg" alt=""></button> 
+                        <img class="bg_a" src="/img/bg_a.svg" alt="">
+                     </div>
+                  <div class="footer_reviews">
+                     <div class="title_footer_reviews">Сергей Васильев</div>
+                     <div class="text_footer_reviews">
+                        «Я нахожусь в салоне ALTERA, всем советую,
+                         хороший коллектив, добрые люди, приветствуют, 
+                         это не обман, вам гарантия 100 % точно, чисто от 
+                         меня, приезжайте! Мы приехали приобрести 
+                         автомобиль в салон ALTERA...
+                     </div>
+                     <div class="more_footer_reviews">
+                        <button class="btn_footer_reviews">Подробнее</button>
+                     </div>
+                  </div>
+                  </div>
+                  <div class="reviews_inner">
+                     <div class="head_reviews">
+                        <button class="btn_play"><img class="img_play" src="/img/play.svg" alt=""></button> 
+                        <img class="bg_a" src="/img/bg_a.svg" alt="">
+                     </div>
+                  <div class="footer_reviews">
+                     <div class="title_footer_reviews">Сергей Васильев</div>
+                     <div class="text_footer_reviews">
+                        «Я нахожусь в салоне ALTERA, всем советую,
+                         хороший коллектив, добрые люди, приветствуют, 
+                         это не обман, вам гарантия 100 % точно, чисто от 
+                         меня, приезжайте! Мы приехали приобрести 
+                         автомобиль в салон ALTERA...
+                     </div>
+                     <div class="more_footer_reviews">
+                        <button class="btn_footer_reviews">Подробнее</button>
+                     </div>
+                  </div>
+                  </div>
+                  <div class="reviews_inner">
+                     <div class="head_reviews">
+                        <button class="btn_play"><img class="img_play" src="/img/play.svg" alt=""></button> 
+                        <img class="bg_a" src="/img/bg_a.svg" alt="">
+                     </div>
+                  <div class="footer_reviews">
+                     <div class="title_footer_reviews">Сергей Васильев</div>
+                     <div class="text_footer_reviews">
+                        «Я нахожусь в салоне ALTERA, всем советую,
+                         хороший коллектив, добрые люди, приветствуют, 
+                         это не обман, вам гарантия 100 % точно, чисто от 
+                         меня, приезжайте! Мы приехали приобрести 
+                         автомобиль в салон ALTERA...
+                     </div>
+                     <div class="more_footer_reviews">
+                        <button class="btn_footer_reviews">Подробнее</button>
+                     </div>
+                  </div>
+                  </div>
+               </div>
+         </div>
+      </div>
+
+      <div class="about_company">
+         <div class="container">
+            <div class="title_company">О компании</div>
+            <div class="company_text">
+               Мы располагаем огромной торговой площадкой более 5000 квадратных метров, у нас в наличии не менее 200 
+               автомобилей как отечественного, так и иностранного производства. В штате автосалона «Альтера» работают настоящие 
+               профессионалы, которые знают особенности каждого конкретного автомобиля.
+            </div>
+            <div class="video_company">
+               <img class="img_company" src="/img/about_company.svg" alt="" srcset="">
+               <button class="btn_play"><img class="img_play" src="/img/play.svg" alt=""></button> 
+            </div>
+
+         </div>
+      </div>
+
+      <!-- БЛОГ БЛОГ БЛОГ -->
+
+      <div class="rec">
+         <div class="container">
+            <div class="header_rec">
+               <div class="reс_title">
+                  <div class="reс_inner">
+                     <span class="reс_text">Блог</span> 
+                     <span class="red">Все статьи</span>
+                  </div>
+                  
+               </div>
+               <div class="arrow_rec">
+                  <button class="arrow_rec_left" id="prev_test_item"><img src="/icon/arrow_small_left.svg" alt=""></button>
+                  <button class="arrow_rec_right" id="next_test_item"><img src="/icon/arrow_small.svg" alt=""></button>
+               </div>
+            </div>
+            <div class="test_items">
+               <div class="test_item">
+                  <img class="img_test" src="/img/test_skoda.svg" alt="">
+                  <div class="title_test">25 октября1</div>
+                  <div class="text_test">
+                     Тест Skoda Karoq Scout - городской <br> карлик или настоящий скаут
+                  </div>
+
+               </div>
+               <div class="test_item">
+                  <img class="img_test" src="/img/test_skoda.svg" alt="">
+                  <div class="title_test">25 октября2</div>
+                  <div class="text_test">
+                     Тест Skoda Karoq Scout - городской <br> карлик или настоящий скаут
+                  </div>
+
+               </div>
+               <div class="test_item">
+                  <img class="img_test" src="/img/test_skoda.svg" alt="">
+                  <div class="title_test">25 октября3</div>
+                  <div class="text_test">
+                     Тест Skoda Karoq Scout - городской <br> карлик или настоящий скаут
+                  </div>
+
+               </div>
+               <div class="test_item">
+                  <img class="img_test" src="/img/test_skoda.svg" alt="">
+                  <div class="title_test">25 октября4</div>
+                  <div class="text_test">
+                     Тест Skoda Karoq Scout - городской <br> карлик или настоящий скаут
+                  </div>
+
+               </div>
+               <div class="test_item">
+                  <img class="img_test" src="/img/test_skoda.svg" alt="">
+                  <div class="title_test">25 октября5</div>
+                  <div class="text_test">
+                     Тест Skoda Karoq Scout - городской <br> карлик или настоящий скаут
+                  </div>
+
+               </div>
+               <div class="test_item">
+                  <img class="img_test" src="/img/test_skoda.svg" alt="">
+                  <div class="title_test">25 октября6</div>
+                  <div class="text_test">
+                     Тест Skoda Karoq Scout - городской <br> карлик или настоящий скаут
+                  </div>
+
+               </div>
+            </div>
+            
+
+         </div>
+      </div>
+ 
+          <!-- О НАШЕМ АВТОСАЛОНЕ О НАШЕМ АВТОСАЛОНЕ О НАШЕМ АВТОСАЛОНЕ -->
+
+      <div class="info_cardeal">
+         <div class="container">
+            <div class="title_cardeal">
+               <label>
+                  <input class="car_deals" type="radio" name="cardeals" id="for_car_deals" checked>
+                  <div class="title_radio" id="">Автосалон</div>
+               </label>
+               <label>
+                  <input class="trade_in" type="radio" name="cardeals" id="for_trade_in">
+                  <div class="title_radio" id="">Трейд-ин</div>
+               </label>
+               <label>
+                  <input class="buy" type="radio" name="cardeals" id="for_bought">
+                  <div class="title_radio" id="">Покупка</div>
+               </label>
+            </div>
+            <div class="place_for_info">
+               <div class="car_deals_inner mgb50" id="car_deals">
+                  <div class="subtitle_radio">Об автосалоне ABC</div>
+                  <div class="text_radio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar auctor tellus, id volutpat dui dictum vitae. Sed ac mauris nisi. Maecenas quis sollicitudin dolor,
+                      eget molestie dolor. Vivamus sed magna euismod, iaculis eros vitae, vehicula justo. Ut id consequat risus, vitae accumsan ligula. Proin egestas odio sit amet laoreet vulputate. Suspendisse vitae vestibulum quam. 
+                      Vivamus lectus justo, bibendum at laoreet vel, rhoncus nec sem. Phasellus at mollis magna, in bibendum massa. Praesent malesuada sit amet nibh ut vestibulum. Interdum et malesuada fames ac ante ipsum primis in
+                       faucibus. Nulla iaculis a orci sit amet iaculis. Nulla in magna posuere nunc pharetra faucibus. Phasellus id enim libero.</div>
+               </div>
+               <div class="trade_in_inner mgb50 new_closed" id="trade_in">
+                  <div class="subtitle_radio">Информация о Trade-in</div>
+                  <div class="text_radio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar auctor tellus, id volutpat dui dictum vitae. Sed ac mauris nisi. Maecenas quis sollicitudin dolor,
+                      eget molestie dolor. Vivamus sed magna euismod, iaculis eros vitae, vehicula justo. Ut id consequat risus, vitae accumsan ligula. Proin egestas odio sit amet laoreet vulputate. Suspendisse vitae vestibulum quam. 
+                      Vivamus lectus justo, bibendum at laoreet vel, rhoncus nec sem. Phasellus at mollis magna, in bibendum massa. Praesent malesuada sit amet nibh ut vestibulum. Interdum et malesuada fames ac ante ipsum primis in
+                       faucibus. Nulla iaculis a orci sit amet iaculis. Nulla in magna posuere nunc pharetra faucibus. Phasellus id enim libero.</div>
+               </div>
+               <div class="bought_inner mgb50 new_closed" id="buy">
+                  <div class="subtitle_radio">Информация о покупке</div>
+                  <div class="text_radio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar auctor tellus, id volutpat dui dictum vitae. Sed ac mauris nisi. Maecenas quis sollicitudin dolor,
+                      eget molestie dolor. Vivamus sed magna euismod, iaculis eros vitae, vehicula justo. Ut id consequat risus, vitae accumsan ligula. Proin egestas odio sit amet laoreet vulputate. Suspendisse vitae vestibulum quam. 
+                      Vivamus lectus justo, bibendum at laoreet vel, rhoncus nec sem. Phasellus at mollis magna, in bibendum massa. Praesent malesuada sit amet nibh ut vestibulum. Interdum et malesuada fames ac ante ipsum primis in
+                       faucibus. Nulla iaculis a orci sit amet iaculis. Nulla in magna posuere nunc pharetra faucibus. Phasellus id enim libero.</div>
+               </div>
+            </div>
+           
+
+         </div>   
+      </div>
+
+      <div class="maps_me">
+         <div class="container">
+            <div class="map">
+               <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aae1cdbeeef42484ac6557e6de143654e8910f53460a307caf9d864c909c01471&amp;width=100%25&amp;height=720&amp;lang=ru_RU&amp;scroll=true"></script>
+               <div class="how_find">
+                  <div class="call_find">
+                     <div class="call_red"><img class="img_call" width="9px" height="9px" src="/img/call_small.svg" alt="" srcset=""></div>
+                     <div class="numbers">
+                        <div class="num_1">+7 (800) 551-94-31 </div>
+                        <div class="num_2">+7 (800) 551-94-31 </div>
+                     </div>
+                  </div>
+                  <div class="time_working">
+                     <div class="call_red"><img class="img_call" width="9px" height="9px" src="/img/time.svg" alt="" srcset=""></div>
+                     <div class="time_text">Ежедневно с 08:00 до 21:00</div>
+                  </div>
+                  <div class="time_working">
+                     <div class="call_red"><img class="img_call" width="9px" height="9px" src="/img/location_small.svg" alt="" srcset=""></div>
+                     <div class="time_text">Россия, Москва, 38КМ МКАД, 6Бс1</div>
+                  </div>
+                  <button class="btn_how_find">Как до нас добраться?</button>
+               </div>
+            </div>
+
+         </div>
+      </div>
+
+      <!-- ПОДВАЛ ПОДВА ПОДВАЛ  -->
+
+      <div class="footer">
+         <div class="line_border">a</div>
+         <div class="container">
+            <div class="header_footer">
+               <div class="title_header_footer">
+                  Каталог авто
+               </div>
+               <div class="title_header_footer">
+                  Авто с пробегом
+               </div>
+               <div class="title_header_footer">
+                  Кредит и рассрочка
+               </div>
+               <div class="title_header_footer">
+                  Спецпредложения
+               </div>
+               <div class="title_header_footer">
+                  Такси в кредит
+               </div>
+            </div>
+            <div class="main_footers">
+               <div class="main_footer_left">
+               
+                  <div class="title_main_footer_left">
+                     <div class="subtitle_main_footer_left">
+                        
+                       <span class="border_red">Ката</span>лог авто
+                        
+                     </div>
+                     <span class="text_footer more">Подробнее</span>
+                     <span class="text_footer map_site">Карта сайта</span>
+                  </div>
+                  <div class="catalog_auto">
+                     <div class="text_footer">
+                        Kia
+                     </div>
+                     <div class="text_footer">
+                        Hyundai
+                     </div>
+                     <div class="text_footer">
+                        Skoda
+                     </div>
+                     <div class="text_footer">
+                        Volkswagen
+                     </div>
+                     <div class="text_footer">
+                        Toyota
+                     </div>
+                     <div class="text_footer">
+                        Brilliance
+                     </div>
+                     <div class="text_footer">
+                        Kia
+                     </div>
+                     <div class="text_footer">
+                        Hyundai
+                     </div>
+                     <div class="text_footer">
+                        Skoda
+                     </div>
+                     <div class="text_footer">
+                        Volkswagen
+                     </div>
+                     <div class="text_footer">
+                        Toyota
+                     </div>
+                     <div class="text_footer">
+                        Brilliance
+                     </div>
+                     <div class="text_footer">
+                        Kia
+                     </div>
+                     <div class="text_footer">
+                        Hyundai
+                     </div>
+                     <div class="text_footer">
+                        Skoda
+                     </div>
+                     <div class="text_footer">
+                        Volkswagen
+                     </div>
+                     <div class="text_footer">
+                        Toyota
+                     </div>
+                     <div class="text_footer">
+                        Brilliance
+                     </div>
+                     <div class="text_footer">
+                        Kia
+                     </div>
+                     <div class="text_footer">
+                        Hyundai
+                     </div>
+                     <div class="text_footer">
+                        Skoda
+                     </div>
+                     <div class="text_footer">
+                        Volkswagen
+                     </div>
+                     <div class="text_footer">
+                        Toyota
+                     </div>
+                     <div class="text_footer">
+                        Brilliance
+                     </div>
+                     <div class="text_footer">
+                        Kia
+                     </div>
+                     <div class="text_footer">
+                        Hyundai
+                     </div>
+                     <div class="text_footer">
+                        Skoda
+                     </div>
+                     <div class="text_footer">
+                        Volkswagen
+                     </div>
+                     <div class="text_footer">
+                        Toyota
+                     </div>
+                     <div class="text_footer">
+                        Brilliance
+                     </div>
+                     <div class="text_footer">
+                        Kia
+                     </div>
+                     <div class="text_footer">
+                        Hyundai
+                     </div>
+                     <div class="text_footer">
+                        Skoda
+                     </div>
+                     <div class="text_footer">
+                        Volkswagen
+                     </div>
+                     <div class="text_footer">
+                        Toyota
+                     </div>
+                  </div>
+               </div>
+   
+               <div class="main_footer_right">
+                  <div class="title_main_footer_right">
+                     <div class="subtitle_credit_footer_right">
+                       <span class="border_red">Кред</span>ит и рассрочка
+                     </div>
+
+                     <div class="text_footer_right_credit">
+                       <div class="text_footer">
+                        Экспресс-кредит
+                       </div> 
+                       <div class="text_footer">
+                        Семейный автомобиль
+                       </div> 
+                       <div class="text_footer">
+                        Первый автомобиль
+                       </div> 
+                       <div class="text_footer">
+                        Работникам медицины
+                       </div> 
+                       <div class="text_footer">
+                        Рассрочка
+                       </div> 
+                       <div class="text_footer">
+                        Trade-in
+                       </div>
+                     </div>
+                     
+                  </div>
+
+                  <div class="contact_find_right">
+                     <div class="subtitle_contact_footer_right">
+                        <span class="border_red">Кред</span>ит и рассрочка
+                      </div>
+                      <div class="how_find_footer">
+                        <div class="call_find">
+                           <div class="call_red"><img class="img_call" width="9px" height="9px" src="/img/call_small.svg" alt="" srcset=""></div>
+                           <div class="numbers">
+                              <div class="num_1 text_footer text_decoration_none">+7 (800) 551-94-31 </div>
+                              <div class="num_2 text_footer text_decoration_none">+7 (800) 551-94-31 </div>
+                           </div>
+                        </div>
+                        <div class="time_working">
+                           <div class="call_red"><img class="img_call" width="9px" height="9px" src="/img/time.svg" alt="" srcset=""></div>
+                           <div class="time_text text_footer text_decoration_none">Ежедневно с 08:00 до 21:00</div>
+                        </div>
+                        <div class="time_working">
+                           <div class="call_red"><img class="img_call" width="9px" height="9px" src="/img/location_small.svg" alt="" srcset=""></div>
+                           <div class="time_text text_footer text_decoration_none">Россия, Москва, 38КМ МКАД, 6Бс1 <br>
+                           <span class="scheme"><u> Схема проезда </u></span></div>
+                        </div>
+                        <div class="u_location_now">
+                           <div class="specify_location">
+                               Москва
+                           </div>
+                        </div>
+                      </div>
+
+                  </div>
+                 
+                   
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="footer_footer">
+         <div class="container">
+            <div class="abc_auto">
+               <div class="title_abc_auto">
+                  © 2021 Автосалон "ABC AUTO". Официальный дилер
+                  <div class="text_abc">
+                     
+                     <span class="text_footer_footer "><u>Политика конфиденциальности</u></span>
+                     <span class="text_footer_footer user_offer"><u>Пользовательское соглашение</u></span>
+                  </div>
+               </div>
+               <div class="text_footer_footer">Обращаем Ваше внимание на то, что данный интернет-сайт носит исключительно информационный характер
+                   и ни при каких условиях не является публичной офертой,
+                    определяемой положениями Статьи 437 Гражданского кодекса Российской Федерации.</div>
+                  <img class="yandex_5" src="/img/yandex_5.svg" alt="">
+   
+            </div>
+         </div>
+     </div> 
+     <script src="js_for_main_menu/offer_on_credit.js"></script> 
+     <script src="js_for_main_menu/check_info_footer.js"></script> 
+     <script src="js_for_main_menu/slider_special_rec.js"></script> 
+     <script src="js_for_main_menu/take_offer.js"></script> 
+     <script src="js_for_main_menu/favorites_items.js"></script>  
+     <script src="js_for_main_menu/slider_rec.js"></script>  
+     <script src="js_for_main_menu/show_more_auto.js"></script> 
+     <script src="js_for_main_menu/filter_fast_pick.js"></script>       
+     <script src="js_for_main_menu/auto_items_pick.js"></script>   
+     <script src="js_for_main_menu/cate_title.js"></script>   
+     <script src="js_for_main_menu/main_slider.js"></script>
+     <script src="js_for_main_menu/main_sliderv2.js"></script>
+     <script src="js_for_main_menu/popups_for_header.js"></script>                         
+     <script src="js_for_main_menu/scroll_main_menu.js"></script>
+     <script src="js_for_main_menu/test.js"></script>
+</body>                                 
+</html>                                                         
